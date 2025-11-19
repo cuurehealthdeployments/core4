@@ -624,22 +624,26 @@ const Navbar = () => {
           </button>
           {dropdownOpen && (
             <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
-              <li><Link to="/investors/polices" className="block px-4 py-2 hover:bg-gray-100">Policies</Link></li>
-              <li><Link to="/investors/latestupdates" className="block px-4 py-2 hover:bg-gray-100">Latest Updates</Link></li>
+              <li><Link to="/investors/polices" className="block px-4 py-2 hover:bg-gray-100">Board Of Directors</Link></li>
+              <li><Link to="/investors/latestupdates" className="block px-4 py-2 hover:bg-gray-100">Annual Returns & Financial Reports</Link></li>
+              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Corporate Governanace</Link></li>
+              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Corporate Announcements</Link></li>
+              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Info for Share Holders</Link></li>
               <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">IPO</Link></li>
-              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">CSR</Link></li>
             </ul>
           )}
         </li>
 
         {/* Core4Energies - External Link in Green */}
         <li>
+          <div className="border-2 border-green-500 hover:bg-green-50 font-medium px-4 py-2 rounded-lg transition-all">
           <button 
             onClick={() => handleExternalLink('https://core4engineers.com/')}
-            className="text-green-600 hover:text-green-700 font-medium transition-colors duration-200"
+            className="text-green-600 hover:text-green-800 font-medium transition-colors duration-200"
           >
             Core4Energies
           </button>
+          </div>
         </li>
 
         {/* Contact Us Button */}

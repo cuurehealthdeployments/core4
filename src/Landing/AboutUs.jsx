@@ -4,12 +4,81 @@ const AboutUs = () => {
   const [activeTab, setActiveTab] = useState("AboutUs");
 
   const content = {
-    AboutUs: {
-      text:
-        "CORE4 ENGINEERS was founded as a partnership firm in the year 2014, and was upgraded to Pvt Ltd company under Companies act in the year 2022. We are also manufacturer of MV / LV Distribution Panel/Switch boards, MV Compact Sub Stations with Total Type Tested by CPRI. We provide complete EPC Solutions for Electric Vehicle / Rail Transport system, Server & Networking companies, PCB manufacturing companies, and other manufacturing entities as per their needs.",
-      image: "/images/PO6.png",
-    },
-  };
+  AboutUs: {
+    shortText: (
+      <>
+        <span className="font-bold">CORE4 ENGINEERS Limited </span>
+        is a multidisciplinary Engineering, Procurement, Construction,
+        and Commissioning (EPCC) company founded in the year 2014, with commitment to deliver
+        innovative, sustainable, and high-quality solutions across a wide range of industries such as
+        – Railway Infrastructure, EHV Transmission and Distribution, Water and Waste water
+        treatment, Manufacturing Power Quality &amp; Distribution Panels, SCADA and Automation
+        systems, Infrastructure Projects under PPP mode. Established with a vision to redefine
+        engineering excellence, we combine technical expertise, creative problem-solving, and a
+        client-focused approach to bring every project to life with precision and purpose considering
+        economic viability.
+        <br /><br />
+      </>
+    ),
+
+    fullText: (
+      <>
+        <span className="font-bold">CORE4 ENGINEERS Limited </span>
+        is a multidisciplinary Engineering, Procurement, Construction,
+        and Commissioning (EPCC) company founded in the year 2014, with commitment to deliver
+        innovative, sustainable, and high-quality solutions across a wide range of industries such as
+        – Railway Infrastructure, EHV Transmission and Distribution, Water and Waste water
+        treatment, Manufacturing Power Quality &amp; Distribution Panels, SCADA and Automation
+        systems, Infrastructure Projects under PPP mode. Established with a vision to redefine
+        engineering excellence, we combine technical expertise, creative problem-solving, and a
+        client-focused approach to bring every project to life with precision and purpose considering
+        economic viability.
+        <br /><br />
+
+        At <span className="font-bold">CORE4,</span> we believe in the strength of our four core values
+        <span className="font-bold"> — Commitment, Collaboration, Competence, and Creativity — </span>
+        which drive every aspect of our work. From concept to completion, we work closely with
+        clients to ensure projects are executed efficiently, safely, and sustainably.
+        <br /><br />
+
+        Our team of experienced engineers, designers, and project managers brings together years
+        of professional expertise and cutting-edge technology to deliver results that exceed
+        expectations. Whether it’s Railway Infrastructure development, Industrial Projects, Power
+        Projects, or specialized engineering services,
+        <span className="font-bold"> CORE4 ENGINEERS Limited </span>
+        is your trusted partner for reliable, innovative, and cost-effective engineering solutions.
+        <br /><br />
+
+        We are not just engineers — we are problem solvers, innovators, and collaborators,
+        dedicated to shaping a better and smarter built environment for future generations.
+      </>
+    ),
+
+    image: "/images/PO6.png",
+  },
+};
+
+// TOGGLE FOR READ MORE
+const AboutSection = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <div>
+      <p className="text-gray-700 leading-relaxed">
+        {expanded ? content.AboutUs.fullText : content.AboutUs.shortText}
+
+        <span
+          className="text-green-600 font-semibold cursor-pointer hover:underline ml-1"
+          onClick={() => setExpanded(!expanded)}
+        >
+          {expanded ? "Read Less..." : "Read More..."}
+        </span>
+      </p>
+    </div>
+  );
+};
+
+
 
   return (
     <section className="px-4 py-12 bg-gray-100 md:px-8 lg:px-16">
@@ -36,7 +105,9 @@ const AboutUs = () => {
               </span>
             ))}
           </div>
-          <p className="mt-4 text-gray-700 text-justify">{content[activeTab].text}</p>
+          <div className="mt-4 text-gray-700 text-justify">
+            <AboutSection />
+          </div>
           <div className="mt-6 grid grid-cols-3 gap-4 text-center">
             <div>
               <h2 className="text-lg md:text-xl font-bold">20+</h2>
@@ -82,8 +153,8 @@ const AboutUs = () => {
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
             <p className="text-gray-700 text-justify">
-                            Our vision is to maximize project execution speed and profitability in Small and Medium EPC contracts, also to create assets with new technology to provide infrastructure solutions under PPP for Small and Medium Infrastructure.
-
+              To deliver high-quality, sustainable, and value-driven engineering solutions that meet the
+              evolving needs of our clients and communities.
             </p>
           </div>
         </div>
@@ -101,7 +172,13 @@ const AboutUs = () => {
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
             <p className="text-gray-700 text-justify">
-              Mission is to embrace and adapt new technologies to solve modern problems, by converting into opportunities for a profitable enterprise, driving towards more consistent and sustainable future which will ultimately leads to Engineering the Future.
+              To deliver high-quality, sustainable, and value-driven engineering solutions that meet the
+              evolving needs of our clients and communities.<br /> <br />
+              <span className="font-bold">Our Core Values :-</span><br />
+              <span className="font-bold">➤ Commitment – </span>Dedicated to delivering excellence in every detail.<br />
+              <span className="font-bold">➤Collaboration – </span>Building lasting partnerships through teamwork and transparency.<br />
+              <span className="font-bold">➤ Competence – </span>Combining technical expertise with continuous learning.<br />
+              <span className="font-bold">➤ Creativity – </span>Driving innovation to meet complex challenges.            
             </p>
           </div>
           <div className="relative text-center">
