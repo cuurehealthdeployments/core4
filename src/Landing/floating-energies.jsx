@@ -15,7 +15,7 @@ const FloatingIcon = () => {
       }}
     >
       <img
-        src="/public/core4-energy.png" 
+        src="../public/core4-energy.png" 
         alt="Floating Icon"
         style={{
           width: "70px",
