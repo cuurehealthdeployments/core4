@@ -24,6 +24,14 @@ const FloatingIcon = () => {
           cursor: "pointer",
           boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
         }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.12)";
+          e.currentTarget.style.boxShadow = "0 6px 14px rgba(0,0,0,0.4)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.style.boxShadow = "0 4px 10px rgba(0,0,0,0.3)";
+        }}
       />
     </a>
   );
