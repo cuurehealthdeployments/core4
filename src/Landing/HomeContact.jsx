@@ -107,11 +107,35 @@ const ContactSection = () => {
               <li className="flex items-center justify-center sm:justify-start">
                 <Mail className="w-5 h-5 mr-2" /> core4engineerspvtltd@gmail.com
               </li>
-              <li className="flex items-start justify-center sm:justify-start text-center sm:text-left">
-                <MapPin className="w-9 h-9 mr-2" /> No. 12. 1st Floor, Near New Law Court, K-Block, Kuvempunagar, Mysuru - 570 023, KARNATAKA, INDIA
-              </li>
+              
             </ul>
           </div>
+          {/* Additional Address Details */}
+
+<div className="mt-8">
+          <h3 className="text-lg font-bold text-blue-700">Head / Registered Office (Kuvempunagar, Mysore)</h3>
+          <p className="text-gray-600 mt-1">
+            Mathrushree / No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra (Near New Law Court),  
+            K-Block, Kuvempunagar, Mysore — 570023.
+          </p>
+
+          <h3 className="text-lg font-bold text-blue-700 mt-4">Branch Office – Rajajinagar, Bengaluru</h3>
+          <p className="text-gray-600 mt-1">
+            392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar, Bengaluru, Karnataka 560010
+          </p>
+
+          <h3 className="text-lg font-bold text-blue-700 mt-4">Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)</h3>
+          <p className="text-gray-600 mt-1">
+            Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
+          </p>
+
+          <h3 className="text-lg font-bold text-blue-700 mt-4">Branch Office — Madurai (Tamil Nadu)</h3>
+          <p className="text-gray-600 mt-1">
+            #7/103 Rajendraprasad, 3rd Cross Street, Nggo Colony, Nagamalai Pudupudukkottai,  
+            Madurai — 625019
+          </p>
+        </div>
+
         </div>
 
         {/* Contact Form - Responsive Positioning */}

@@ -9,14 +9,14 @@ import img7 from "/images/PO1.jpg";
 import img8 from "/images/PO4.png";
 
 const cards = [
-  { title: "Railway Infrastructure Projects", description: "Railway infrastructure projects involve the construction, maintenance, and modernization of railway networks.", img: img1 },
-  { title: "Water Supply Projects", description: "Water supply projects ensure the availability of clean and safe drinking water to urban and rural areas.", img: img2 },
-  { title: "Networking and Telecom Infrastructure Projects", description: "Networking and telecom infrastructure projects involve the deployment of fiber optics, 5G towers, and broadband networks.", img: img3 },
-  { title: "Mechanical, Plumbing, and Electrical (MPE) Projects", description: "MPE projects focus on designing and implementing mechanical, plumbing, and electrical systems.", img: img4 },
+  { title: "Railway Electrification & Infrastructure ", description: "Railway infrastructure projects involve the construction, maintenance, and modernization of railway networks.", img: img1 },
+  { title: "Water & Wastewater Treatment(WTP/STP/ETP)", description: "Water supply projects ensure the availability of clean and safe drinking water to urban and rural areas.", img: img2 },
+  { title: "Extra High Tension(EHT)Transmission & Distribution System", description: "Networking and telecom infrastructure projects involve the deployment of fiber optics, 5G towers, and broadband networks.", img: img3 },
+  { title: "Industrial Electrical & Infastructure Works", description: "MPE projects focus on designing and implementing mechanical, plumbing, and electrical systems.", img: img4 },
   { title: "Renewable Energy Projects", description: "Renewable energy projects aim to harness sustainable energy sources such as solar, wind, hydro, and bioenergy.", img: img5 },
   { title: "Pre-Engineered Structures", description: "Pre-engineered structures are modular buildings designed for rapid assembly and cost efficiency.", img: img6 },
-  { title: "Railway Electrification", description: "Railway electrification projects involve converting diesel-operated railways into electric-powered systems.", img: img7 },
-  { title: "SCADA and IoT Automation", description: "SCADA (Supervisory Control and Data Acquisition) and IoT automation projects focus on integrating smart technologies.", img: img8 },
+  { title: "Manufacturing of HT/LT Distribution Panels", description: "Railway electrification projects involve converting diesel-operated railways into electric-powered systems.", img: img7 },
+  { title: "Automation & SCADA Systems", description: "SCADA (Supervisory Control and Data Acquisition) and IoT automation projects focus on integrating smart technologies.", img: img8 },
 ];
 
 const HomeProjects = () => {
