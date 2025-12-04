@@ -54,7 +54,7 @@ const AboutUs = () => {
       </>
     ),
 
-    image: "/images/PO6.png",
+    image: "/images/about-us.png",
   },
 };
 

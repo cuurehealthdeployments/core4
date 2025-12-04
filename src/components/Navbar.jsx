@@ -582,7 +582,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md p-4 flex justify-between items-center">
       {/* Logo */}
-      <Link to="/"><img src="/images/logo.png" alt="Logo" className="h-14 w-auto ml-5" /></Link>
+      <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-14 w-auto ml-5" /></Link>
 
       {/* Desktop Navbar */}
       <ul className="hidden lg:flex space-x-9 text-lg items-center">
@@ -634,14 +634,14 @@ const Navbar = () => {
           )}
         </li>
 
-        {/* Core4Energies - External Link in Green */}
+        {/* Core4Energy - External Link in Green */}
         <li>
           <div className="border-2 border-green-500 hover:bg-green-50 font-medium px-4 py-2 rounded-lg transition-all">
           <button 
             onClick={() => handleExternalLink('https://core4engineers.com/')}
             className="text-green-600 hover:text-green-800 font-medium transition-colors duration-200"
           >
-            Core4Energies
+            Core4 Energy
           </button>
           </div>
         </li>
@@ -659,7 +659,7 @@ const Navbar = () => {
       <ul className={`fixed top-0 left-0 w-full h-screen bg-white z-50 transition-transform transform ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col items-start text-lg overflow-y-auto`}>
         {/* Close Button & Logo */}
         <div className="flex justify-between items-center w-full px-6 py-4 border-b">
-          <img src="images/logo.png" alt="Logo" className="h-14 w-auto" />
+          <img src="images/logo.jpg" alt="Logo" className="h-14 w-auto" />
           <button onClick={() => setIsOpen(false)} className="p-2"><X size={28} /></button>
         </div>
 
@@ -686,7 +686,7 @@ const Navbar = () => {
           )}
         </li>
 
-        {/* Mobile Core4Energies Link */}
+        {/* Mobile Core4Energy Link */}
         <li>
           <button 
             onClick={() => {
@@ -695,7 +695,7 @@ const Navbar = () => {
             }}
             className="block px-6 py-4 font-medium text-green-600 hover:text-green-700"
           >
-            Core4Energies
+            Core4 Energy
           </button>
         </li>
 

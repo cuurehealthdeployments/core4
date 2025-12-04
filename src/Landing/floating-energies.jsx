@@ -15,11 +15,11 @@ const FloatingIcon = () => {
       }}
     >
       <img
-        src="/core4-energy.png" 
+        src="/core4-energy.jpg" 
         alt="Floating Icon"
         style={{
-          width: "70px",
-          height: "50px",
+          width: "160px",
+          height: "70px",
           borderRadius: "10%",
           cursor: "pointer",
           boxShadow: "0 4px 10px rgba(0,0,0,0.3)",

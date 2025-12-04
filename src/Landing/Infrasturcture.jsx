@@ -86,7 +86,7 @@ const InfrastructureComponent = () => {
         {/* Right Side Features */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-1 lg:grid-cols-2" data-aos="fade-left">
           {[
-            { icon: "🏠", title: "In-House Excellence", text: "Our self-performance model ensures top-tier quality, backed by a highly skilled workforce." },
+            { icon: "🏢", title: "In-Work Excellence", text: "Our self-performance model ensures top-tier quality, backed by a highly skilled workforce." },
             { icon: "💎", title: "Timely Completion", text: "Ensuring timely completion without compromising on quality and standards throughout." },
             { icon: "⭐", title: "Diverse Expertise", text: "Our portfolio spans Water Supply, Roads, Railways, Dams, Bridges, and more." },
             { icon: "🛡", title: "Quality", text: "We aim for superior infrastructure, embracing excellence, efficiency, and ethical values." },
