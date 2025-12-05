@@ -616,7 +616,7 @@ const Navbar = () => {
         <li><Link to="/investors" className="hover:text-blue-500">Investors</Link></li>
 
         {/* Investors Dropdown */}
-        <li className="relative" id="investors-dropdown">
+        {/* <li className="relative" id="investors-dropdown">
           <button className="flex items-center hover:text-blue-500" onClick={(e) => { 
             e.stopPropagation(); 
             setDropdownOpen(!dropdownOpen);
@@ -635,7 +635,7 @@ const Navbar = () => {
               <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Creditors</Link></li>
             </ul>
           )}
-        </li>
+        </li> */}
 
         {/* Core4Energy - External Link in Green */}
         <li>
