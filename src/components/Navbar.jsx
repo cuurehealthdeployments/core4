@@ -675,7 +675,7 @@ const Navbar = () => {
         <li><Link to="/products" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Products</Link></li>
 
         {/* Mobile Investors Dropdown */}
-        <li>
+        {/* <li>
           <button className="flex justify-between px-6 py-4 font-medium w-full" onClick={() => setMobileDropdownOpen(!mobileDropdownOpen)}>
             Investors <ChevronDown size={18} className={`transition ${mobileDropdownOpen ? "rotate-180" : ""}`} />
           </button>
@@ -687,7 +687,7 @@ const Navbar = () => {
               <li><Link to="/investors/csr" className="block px-8 py-3 hover:bg-gray-200" onClick={() => setIsOpen(false)}>CSR</Link></li>
             </ul>
           )}
-        </li>
+        </li> */}
 
         {/* Mobile Core4Energy Link */}
         <li>
