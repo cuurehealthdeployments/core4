@@ -613,6 +613,7 @@ const Navbar = () => {
         <li><Link to="/projects" className="hover:text-blue-500">Projects</Link></li>
         <li><Link to="/services" className="hover:text-blue-500">Services</Link></li>
         <li><Link to="/products" className="hover:text-blue-500">Products</Link></li>
+        <li><Link to="/investors" className="hover:text-blue-500">Investors</Link></li>
 
         {/* Investors Dropdown */}
         <li className="relative" id="investors-dropdown">
@@ -626,10 +627,12 @@ const Navbar = () => {
             <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
               <li><Link to="/investors/polices" className="block px-4 py-2 hover:bg-gray-100">Board Of Directors</Link></li>
               <li><Link to="/investors/latestupdates" className="block px-4 py-2 hover:bg-gray-100">Annual Returns & Financial Reports</Link></li>
-              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Corporate Governanace</Link></li>
-              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Corporate Announcements</Link></li>
-              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Info for Share Holders</Link></li>
+              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Corporate Oversight</Link></li>
+              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Corporate updates</Link></li>
+              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Investor Concerns</Link></li>
               <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">IPO</Link></li>
+              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Material Contracts</Link></li>
+              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Creditors</Link></li>
             </ul>
           )}
         </li>
