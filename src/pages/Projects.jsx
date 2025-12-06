@@ -327,7 +327,7 @@ const Accordiona = () => {
       image: "/images/projects/PJ6.1.png",
       subItems: [
         {
-          name: "    • Industrial electrification of complete plants",
+          name: "Industrial electrification of complete plants",
           image: "/images/projects/PJ6.1.png",
           description: `Industrial electrification ensures that the entire plant receives reliable, efficient, and safe electrical power for operations. CORE4 Engineers provides end-to-end electrification solutions for manufacturing units, processing plants, warehouses, and industrial complexes. Our scope includes power distribution, PCC/MCC installation, transformer integration, earthing networks, bus duct systems, and safety compliance. With precise engineering and load analysis, we ensure uninterrupted power flow, improved energy efficiency, and long-term operational reliability for industrial facilities.`
         },
