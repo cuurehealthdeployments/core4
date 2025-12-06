@@ -7,13 +7,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const ipoDocuments = [
-    { title: "Draft Offer Documents", link: "#draft-offer-documents" },
-    { title: "Addendum to DRHP", link: "#addendum-to-drhp" },
-    { title: "Addendum to DRHP-13/06/2024", link: "#addendum-to-drhp-13-06-2024" },
-    { title: "Addendum to DRHP-30/11/2024", link: "#addendum-to-drhp-30-11-2024" },
-    { title: "RHP 16/01/2025", link: "#rhp-16-01-2025" },
-    { title: "Core4 engineers - Prospectus 27/01/2025", link: "#prospectus-27-01-2025" },
-    { title: "Basis of Allotment", link: "#basis-of-allotment" }
+    // { title: "Draft Offer Documents", link: "#draft-offer-documents" },
+    // { title: "Addendum to DRHP", link: "#addendum-to-drhp" },
+    // { title: "Addendum to DRHP-13/06/2024", link: "#addendum-to-drhp-13-06-2024" },
+    // { title: "Addendum to DRHP-30/11/2024", link: "#addendum-to-drhp-30-11-2024" },
+    // { title: "RHP 16/01/2025", link: "#rhp-16-01-2025" },
+    // { title: "Core4 engineers - Prospectus 27/01/2025", link: "#prospectus-27-01-2025" },
+    // { title: "Basis of Allotment", link: "#basis-of-allotment" }
 ];
 
 export default function IPO() {

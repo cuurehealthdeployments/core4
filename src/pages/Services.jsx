@@ -3,66 +3,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Import images
-import service1 from "/images/p3.png";
-import service2 from "/images/p1.png";
-import service3 from "/images/s4.png";
-import service4 from "/images/s3.png";
+import service1 from "/images/services/SR1.jpg";
+import service2 from "/images/services/SR2.jpg";
+import service3 from "/images/services/SR3.png";
+import service4 from "/images/services/SR4.jpg";
+import service5 from "/images/services/SR5.jpg";
+import service6 from "/images/services/SR6.jpg";
 
 const services = [
-   {
-    title: "Our PMC Services Include",
-    preview: `Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects..`,
-    description: (
-      <>
-        Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects.
-        <br /><br />
-        
-        <span className="font-bold">Our PMC Services Include :</span>
-        <br />
-        <span className="font-bold">➣Project Planning & Scheduling:</span><br />
-         Preparation of detailed project timelines, resource allocation plans, and milestone charts using industry-standard project management tools. Critical Path analysis ensures seamless coordination among all stakeholders.
-        <br />
-        <span className="font-bold">➣ DPR Preparation & Technical Documentation:</span><br />
-        Development of Detailed Project Reports (DPR) including feasibility analysis, BOQ preparation, cost estimation, layout drawings, and engineering documentation as per project requirements.
-        <br />
-        <span className="font-bold">➣ Cost Estimation, Budgeting & Control:</span><br />
-        Accurate budget planning with continuous cost monitoring to prevent overruns. Includes vendor price evaluation, cost optimization, and financial progress tracking.
-        <br />
-        <span className="font-bold">➣ Onsite Monitoring & Supervision:</span>
-        <br />
-        Regular onsite inspections covering quality checks, material verification, work progress validation, and adherence to safety standards. Daily/weekly monitoring ensures timely project execution.        <br />
-        <span className="font-bold">➣ Vendor & Contractor Coordination:</span>
-        <br />
-        End-to-end coordination with suppliers, contractors, clients, and consultants for smooth execution. Includes material approvals, design clarifications, and interface management.
-        <br />
-        <span className="font-bold">➣ MIS Reporting & Progress Tracking:</span>
-        <br />
-        Preparation of structured MIS reports with photographs, progress charts, bar schedules, inspection logs, and work status updates for client review.
-        <br />
-        <span className="font-bold">➣ Quality & Safety Assurance:</span>
-        <br />
-        Implementation of QA/QC procedures, safety guidelines, method statements, and site checklists to ensure compliance with standards and reduce operational risk.
-        <br />
-         <span className="font-bold">➣  Testing, Commissioning & Handover Support:</span>
-        <br />
-        Coordination of final testing activities, documentation of as-built drawings, and preparation of handover reports for seamless project completion and client acceptance.        <br /><br />
-        <br />
-
-        <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
-        ➣ End-to-end Project Management Expertise covering planning, engineering coordination, vendor management, execution monitoring, and final commissioning.<br />
-        ➣ Systematic project tracking methods using project schedules, DPR/MIS reporting, risk assessment, and milestone-based progress monitoring.<br />
-        ➣ Strong technical background in electrical, civil, mechanical, and utility-based project supervision to ensure complete compliance and quality.<br />
-        ➣ Transparent coordination with contractors, OEMs, and clients, ensuring smooth communication and timely closure of activities.<br />
-        ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br />
-        ➣ Cost and time optimization approach, reducing delays and avoiding rework through proactive planning and technical review.<br />
-        ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br /> <br />
-         At CORE4 ENGINEERS Limited, our PMC services ensure your project is executed with precision, quality, and complete transparency—delivering the results you expect, within the timelines you commit.
-      </>
-    ),
-    img: service2,
-  },
   {
-    title: "RAILWAY INFRASTRUCTURE",
+    title: "Railway Infrastructure",
     preview: `At CORE4 ENGINEERS Limited, we specialize in delivering comprehensive
         engineering solutions for the railway infrastructure sector, combining innovation,
         technical excellence, and safety-driven design. Our dedicated team of railway
@@ -345,7 +295,59 @@ const services = [
         operations.
       </>
     ),
-    img: service4,
+    img: service5,
+  },
+  {
+    title: "PMC (Project Management Consultancy)",
+    preview: `Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects..`,
+    description: (
+      <>
+        Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects.
+        <br /><br />
+        
+        <span className="font-bold">Our PMC Services Include :</span>
+        <br />
+        <span className="font-bold">➣Project Planning & Scheduling:</span><br />
+         Preparation of detailed project timelines, resource allocation plans, and milestone charts using industry-standard project management tools. Critical Path analysis ensures seamless coordination among all stakeholders.
+        <br />
+        <span className="font-bold">➣ DPR Preparation & Technical Documentation:</span><br />
+        Development of Detailed Project Reports (DPR) including feasibility analysis, BOQ preparation, cost estimation, layout drawings, and engineering documentation as per project requirements.
+        <br />
+        <span className="font-bold">➣ Cost Estimation, Budgeting & Control:</span><br />
+        Accurate budget planning with continuous cost monitoring to prevent overruns. Includes vendor price evaluation, cost optimization, and financial progress tracking.
+        <br />
+        <span className="font-bold">➣ Onsite Monitoring & Supervision:</span>
+        <br />
+        Regular onsite inspections covering quality checks, material verification, work progress validation, and adherence to safety standards. Daily/weekly monitoring ensures timely project execution.        <br />
+        <span className="font-bold">➣ Vendor & Contractor Coordination:</span>
+        <br />
+        End-to-end coordination with suppliers, contractors, clients, and consultants for smooth execution. Includes material approvals, design clarifications, and interface management.
+        <br />
+        <span className="font-bold">➣ MIS Reporting & Progress Tracking:</span>
+        <br />
+        Preparation of structured MIS reports with photographs, progress charts, bar schedules, inspection logs, and work status updates for client review.
+        <br />
+        <span className="font-bold">➣ Quality & Safety Assurance:</span>
+        <br />
+        Implementation of QA/QC procedures, safety guidelines, method statements, and site checklists to ensure compliance with standards and reduce operational risk.
+        <br />
+         <span className="font-bold">➣  Testing, Commissioning & Handover Support:</span>
+        <br />
+        Coordination of final testing activities, documentation of as-built drawings, and preparation of handover reports for seamless project completion and client acceptance.        <br /><br />
+        <br />
+
+        <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
+        ➣ End-to-end Project Management Expertise covering planning, engineering coordination, vendor management, execution monitoring, and final commissioning.<br />
+        ➣ Systematic project tracking methods using project schedules, DPR/MIS reporting, risk assessment, and milestone-based progress monitoring.<br />
+        ➣ Strong technical background in electrical, civil, mechanical, and utility-based project supervision to ensure complete compliance and quality.<br />
+        ➣ Transparent coordination with contractors, OEMs, and clients, ensuring smooth communication and timely closure of activities.<br />
+        ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br />
+        ➣ Cost and time optimization approach, reducing delays and avoiding rework through proactive planning and technical review.<br />
+        ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br /> <br />
+         At CORE4 ENGINEERS Limited, our PMC services ensure your project is executed with precision, quality, and complete transparency—delivering the results you expect, within the timelines you commit.
+      </>
+    ),
+    img: service6,
   },
 ];
 

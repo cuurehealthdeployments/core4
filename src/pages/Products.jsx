@@ -1,12 +1,23 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import product1 from "/images/PR1.png";
-import product2 from "/images/PR2.png";
-import product3 from "/images/s4.png";
-import product4 from "/images/PR6.png";
-import product5 from "/images/PR4.png";
-import product6 from "/images/PR1.png";
+import product1 from "/images/products/PR1.png";
+import product2 from "/images/products/PR2.png";
+import product3 from "/images/products/PR3.png";
+import product4 from "/images/products/PR4.png";
+import product5 from "/images/products/PR5.png";
+import product6 from "/images/products/PR6.png";
+import product7 from "/images/products/PR7.png";
+import product8 from "/images/products/PR8.png";
+import product9 from "/images/products/PR9.png";
+import product10 from "/images/products/PR10.png";
+import product11 from "/images/products/PR11.png";
+import product12 from "/images/products/PR12.png";
+import product13 from "/images/products/PR13.png";
+import product14 from "/images/products/PR14.png";
+import product15 from "/images/products/PR15.png";
+import product16 from "/images/products/PR16.png";
+import product17 from "/images/products/PR17.png";
 
 const products = [
   {
@@ -101,7 +112,7 @@ const products = [
       isolation, and remote SCADA/RTU integration,
       ensuring high system reliability, operational safety,
       and compliance with IEC standards.`,    
-    img: product6,
+    img: product7,
   },
    {
     title: "Compact Substation 11kv (CSS)",
@@ -117,7 +128,7 @@ const products = [
           power from medium voltage (e.g. 11–33  kV) to
           low voltage (like 415 V), providing a safe, efficient,
           and optimized electrical distribution point.`,    
-    img: product6,
+    img: product8,
    },
    {
     title: "FEEDER PILLAR",
@@ -133,7 +144,7 @@ const products = [
           street lighting, commercial complexes, industrial
           parks, and other areas where reliable, localized
           power distribution is needed.`,    
-    img: product6,
+    img: product9,
    },
     {
     title: "Automatic Mains Failure (AMF)",
@@ -147,7 +158,7 @@ const products = [
           This ensures uninterrupted power to critical
           systems without manual intervention.`,
     
-    img: product6,
+    img: product10,
    },
     {
     title: "Power Distribution Board (PDB)",
@@ -163,7 +174,7 @@ const products = [
           maintenance with fully compartmentalized
           construction as per IEC standards.`,
     
-    img: product6,
+    img: product11,
    },
     {
     title: "LT KIOSK",
@@ -178,7 +189,7 @@ const products = [
           field maintenance. Built to IEC/IS standards, it is
           ideal for pole-mounted or ground-mounted LV
           distribution networks.`,
-    img: product6,
+    img: product12,
    },
    {
     title: "Automatic Transfer Switch Panel (ATS)",
@@ -192,7 +203,7 @@ const products = [
           and reliable continuity of power. Designed to meet
           IEC/IS standards, it is suitable for critical industrial,
           commercial, and infrastructure applications.`,
-    img: product6,
+    img: product13,
    },
    {
     title: "Vacuum Circuit Breake (VCB)",
@@ -208,7 +219,7 @@ const products = [
           delivers high dielectric strength, fast fault
           clearance, and long service life, making it ideal for
           substations, industrial plants, and utility networks.`,
-    img: product6,
+    img: product14,
    },
      {
     title: "FCMA SOFT STARTER",
@@ -225,7 +236,7 @@ const products = [
           pumps, compressors, conveyors, and other heavyduty industrial motors. Designed as per IEC/IS
           standards, it delivers robust performance even
           under harsh operating conditions.`,
-    img: product6,
+    img: product15,
    },
     {
     title: "BUS DUCT",
@@ -238,7 +249,7 @@ const products = [
           another, often within the same facility. The term
           “sandwich” refers to the layered construction of
           the bus duct.`,
-    img: product6,
+    img: product16,
    },
     {
     title: "Variable Frequency Drive PaneL (VFD)",
@@ -251,7 +262,7 @@ const products = [
           supplied to the motor. The VFD panel provides
           the necessary components and infrastructure to
           control and protect the VFD.`,
-    img: product6,
+    img: product17,
    },
    
 ];

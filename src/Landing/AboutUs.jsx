@@ -111,7 +111,7 @@ const AboutSection = () => {
           <div className="mt-6 grid grid-cols-3 gap-4 text-center">
             <div>
               <h2 className="text-lg md:text-xl font-bold">20+</h2>
-              <p className="text-gray-500">Countries Supplied</p>
+              <p className="text-gray-500">States Covered Across India</p>
             </div>
             <div>
               <h2 className="text-lg md:text-xl font-bold">148</h2>
@@ -172,8 +172,8 @@ const AboutSection = () => {
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
             <p className="text-gray-700 text-justify">
-              To deliver high-quality, sustainable, and value-driven engineering solutions that meet the
-              evolving needs of our clients and communities.<br /> <br />
+              To provide reliable, efficient, and high-quality engineering solutions that deliver measurable value to our clients. 
+              We aim to execute every project with precision, safety, and integrity while continuously improving through innovation and advanced technology.<br /> <br />
               <span className="font-bold">Our Core Values :-</span><br />
               <span className="font-bold">➤ Commitment – </span>Dedicated to delivering excellence in every detail.<br />
               <span className="font-bold">➤Collaboration – </span>Building lasting partnerships through teamwork and transparency.<br />

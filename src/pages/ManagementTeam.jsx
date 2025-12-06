@@ -3,38 +3,38 @@ import React from 'react';
 
 const TeamProfileUI = () => {
   const teamMembers = [
-    {
-      name: 'Mr. Joaquin',
-      title: 'CEO and Co-founder',
-      bio: 'Mr. Joaquin is the founder and director of our company since its inception and has recently been appointed as the Whole-Time Director. A successful professional, he excels in developing and strengthening management teams to maximize efficiency. His leadership has been instrumental in transforming the organization into a dynamic and progressive entity.',
-      imgSrc: '/images/T1.png',
-      bgColor: 'bg-white',
-      borderColor: 'border-gray-200'
-    },
-    {
-      name: 'Mr.Harish Singh',
-      title: 'Managing Director',
-      bio: 'Mr. Harish Singh is a highly accomplished professional in Civil Engineering, specializing in construction and infrastructure development projects. With an impressive track record spanning over 30 years, Mr. Harish has consistently demonstrated his expertise in the successful execution of a wide range of projects. His areas of specialization encompass the modernization of canals, construction of asphalt and concrete roads, bridges, culverts, warehouse construction, storm water drain, lift irrigation schemes, and tank improvement schemes.',
-      imgSrc: '/images/T2.png',
-      bgColor: 'bg-white',
-      borderColor: 'border-blue-100'
-    },
-    {
-      name: 'Mr. Antonio',
-      title: 'Director',
-      bio: 'He is a Distinguished engineer for excellence having served in various departments of governments of Karnataka for a period of 32 years. Venerated Antonio has worked in water resources Department totally for around 18 years out of which for 15 Years managed water recharging, And water Management in Tungbhadra reservoir and canals in that region.',
-      imgSrc: '/images/T4.png',
-      bgColor: 'bg-white',
-      borderColor: 'border-gray-200'
-    },
-    {
-      name: 'Ms. Angelina',
-      title: 'CS',
-      bio: "She is the Company Secretary and Compliance Officer of our Company. She holds bachelor's degree in commerce from Stanford University. She is an associate member at the Institute of Company Secretaries of India.",
-      imgSrc: '/images/T6.png',
-      bgColor: 'bg-white',
-      borderColor: 'border-blue-100'
-    }
+    // {
+    //   name: 'Mr. Joaquin',
+    //   title: 'CEO and Co-founder',
+    //   bio: 'Mr. Joaquin is the founder and director of our company since its inception and has recently been appointed as the Whole-Time Director. A successful professional, he excels in developing and strengthening management teams to maximize efficiency. His leadership has been instrumental in transforming the organization into a dynamic and progressive entity.',
+    //   imgSrc: '/images/T1.png',
+    //   bgColor: 'bg-white',
+    //   borderColor: 'border-gray-200'
+    // },
+    // {
+    //   name: 'Mr.Harish Singh',
+    //   title: 'Managing Director',
+    //   bio: 'Mr. Harish Singh is a highly accomplished professional in Civil Engineering, specializing in construction and infrastructure development projects. With an impressive track record spanning over 30 years, Mr. Harish has consistently demonstrated his expertise in the successful execution of a wide range of projects. His areas of specialization encompass the modernization of canals, construction of asphalt and concrete roads, bridges, culverts, warehouse construction, storm water drain, lift irrigation schemes, and tank improvement schemes.',
+    //   imgSrc: '/images/T2.png',
+    //   bgColor: 'bg-white',
+    //   borderColor: 'border-blue-100'
+    // },
+    // {
+    //   name: 'Mr. Antonio',
+    //   title: 'Director',
+    //   bio: 'He is a Distinguished engineer for excellence having served in various departments of governments of Karnataka for a period of 32 years. Venerated Antonio has worked in water resources Department totally for around 18 years out of which for 15 Years managed water recharging, And water Management in Tungbhadra reservoir and canals in that region.',
+    //   imgSrc: '/images/T4.png',
+    //   bgColor: 'bg-white',
+    //   borderColor: 'border-gray-200'
+    // },
+    // {
+    //   name: 'Ms. Angelina',
+    //   title: 'CS',
+    //   bio: "She is the Company Secretary and Compliance Officer of our Company. She holds bachelor's degree in commerce from Stanford University. She is an associate member at the Institute of Company Secretaries of India.",
+    //   imgSrc: '/images/T6.png',
+    //   bgColor: 'bg-white',
+    //   borderColor: 'border-blue-100'
+    // }
   ];
 
   return (

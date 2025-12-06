@@ -6,7 +6,7 @@ export default function OurClients() {
       { name: "Amazon", logo: "/images/C6.png" },
       { name: "HCLTech", logo: "/images/c13.png" },
       { name: "Infosys", logo: "/images/c12.png" },
-      { name: "Infosys", logo: "/images/c14.png" }
+      { name: "Infosys", logo: "/images/C7.png" }
     ];
   
     return (

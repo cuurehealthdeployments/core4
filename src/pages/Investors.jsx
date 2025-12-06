@@ -14,7 +14,7 @@ const Investors = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50 p-6">
+    <div className="min-h-screen flex flex-col justify-start pt-24 items-center bg-gray-50 p-6">
       <h1 className="text-5xl font-bold mb-8 text-gray-800">
         Investors Space
       </h1>
@@ -28,9 +28,8 @@ const Investors = () => {
               bg-white shadow-md rounded-xl p-5 
               flex flex-col items-center justify-center gap-3
               text-center text-lg font-semibold 
-              hover:bg-gray-300 hover:text-white 
-              transition-all duration-300 border border-gray-200
-            "
+              hover:bg-gray-300 hover:text-black 
+              transition-all duration-300 border border-gray-200"
           >
             {/* ICON SPACE FOR YOUR OWN IMAGES */}
             <img 

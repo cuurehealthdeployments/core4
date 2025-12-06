@@ -3,10 +3,10 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 const stats = [
-  { title: "Happy Customers", value: 142, description: "We Believe Construction Is More Than Building Structure" },
-  { title: "On-Going Projects", value: 32, description: "We Believe Construction Is More Than Building Structure" },
-  { title: "Completed Projects", value: 10000, description: "We Believe Construction Is More Than Building Structure" },
-  { title: "Awards Achievement", value: 50, description: "We Believe Construction Is More Than Building Structure" },
+  { title: "Happy Customers", value: 142, description: "Delivering trust through every successful project." },
+  { title: "On-Going Projects", value: 32, description: "Driving progress with precision and commitment." },
+  { title: "Completed Projects", value: 10000, description: "Quality execution that stands the test of time." },
+  { title: "Awards Achievement", value: 50, description: "Recognized for excellence, powered by innovation." },
 ];
 
 const StatsSection = () => {

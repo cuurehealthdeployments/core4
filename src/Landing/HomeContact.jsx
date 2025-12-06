@@ -102,42 +102,62 @@ const ContactSection = () => {
             <h3 className="text-lg font-bold text-blue-700">ADDRESS :</h3>
             <ul className="mt-4 space-y-3 text-gray-600">
               <li className="flex items-center justify-center sm:justify-start">
-                <Phone className="w-5 h-5 mr-2" /> +91-93640 09300 / +91-93640 09301
+                <Phone className="w-5 h-5 mr-2" /> +91 08214 507882 / +91 73492 80036
               </li>
               <li className="flex items-center justify-center sm:justify-start">
-                <Mail className="w-5 h-5 mr-2" /> core4engineerspvtltd@gmail.com
+                <Mail className="w-5 h-5 mr-2" /> core4engineersltd@gmail.com
               </li>
               
             </ul>
           </div>
           {/* Additional Address Details */}
 
-<div className="mt-8">
-          <h3 className="text-lg font-bold text-blue-700">Head / Registered Office (Kuvempunagar, Mysore)</h3>
-          <p className="text-gray-600 mt-1">
-            Mathrushree / No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra (Near New Law Court),  
-            K-Block, Kuvempunagar, Mysore — 570023.
-          </p>
+        <div className="mt-8">
+          <h3 className="text-xl font-bold text-blue-700">We are placed at :</h3>
 
-          <h3 className="text-lg font-bold text-blue-700 mt-4">Branch Office – Rajajinagar, Bengaluru</h3>
-          <p className="text-gray-600 mt-1">
-            392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar, Bengaluru, Karnataka 560010
-          </p>
+          <ul className="list-disc ml-6 mt-3 space-y-4">
+            <li>
+              <h4 className="text-lg font-bold text-black-700">
+                Head / Registered Office (Kuvempunagar, Mysore)
+              </h4>
+              <p className="text-gray-600 mt-1">
+                No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra  
+                (Near New Law Court), K-Block, Kuvempunagar, Mysore — 570023.
+              </p>
+            </li>
 
-          <h3 className="text-lg font-bold text-blue-700 mt-4">Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)</h3>
-          <p className="text-gray-600 mt-1">
-            Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
-          </p>
+            <li>
+              <h4 className="text-lg font-bold text-black-700">
+                Branch Office – Rajajinagar, Bengaluru
+              </h4>
+              <p className="text-gray-600 mt-1">
+                392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar,  
+                Bengaluru, Karnataka 560010
+              </p>
+            </li>
 
-          <h3 className="text-lg font-bold text-blue-700 mt-4">Branch Office — Madurai (Tamil Nadu)</h3>
-          <p className="text-gray-600 mt-1">
-            #7/103 Rajendraprasad, 3rd Cross Street, Nggo Colony, Nagamalai Pudupudukkottai,  
-            Madurai — 625019
-          </p>
+            <li>
+              <h4 className="text-lg font-bold text-black-700">
+                Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)
+              </h4>
+              <p className="text-gray-600 mt-1">
+                Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="text-lg font-bold text-black-700">
+                Branch Office — Madurai (Tamil Nadu)
+              </h4>
+              <p className="text-gray-600 mt-1">
+                #7/103 Rajendraprasad, 3rd Cross Street, Nagamalai 
+                Pudupudukkottai, Madurai — 625019
+              </p>
+            </li>
+          </ul>
         </div>
 
-        </div>
-
+      </div>
         {/* Contact Form - Responsive Positioning */}
         <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:max-w-md mx-auto">
           <h3 className="text-xl font-bold text-gray-900">Connect with Us</h3>

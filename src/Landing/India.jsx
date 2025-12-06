@@ -5,13 +5,12 @@ import mapImage from "/images/india.png";
 import locationPin from "/images/location1.png";
 
 const projects = [
-  { name: "Railway Electrification Madurai to Tamil Nadu", x: "40%", y: "83%" },
-  { name: "2.5 Lakhs Liter Water Project (Andra Pradesh)", x: "40%", y: "73%" },
-  { name: "Sewage Treatment Plant (Karnataka)", x: "32%", y: "75%" },
-  { name: "Railway Electrification (Maharashtra)", x: "32%", y: "63%" },
-  { name: "11kv/750v Substation (Odisha)", x: "58%", y: "58%" },
-  { name: "Video Surveillance (Rajasthan)", x: "32%", y: "40%" },
-  { name: "Railway Electrification Bhopal (Madhya Pradesh)", x: "40%", y: "49%" },
+  { name: "Railway Electrification at Tamil Nadu.", x: "40%", y: "83%" },
+  { name: "Substation works at Karnataka, Telangana, Andra Pradesh, Uttar Pradesh, Kerala, Tamil Nadu, Jammu & Kashmir, Delhi, Odisha & Etc.", x: "40%", y: "73%" },
+  { name: "Sewage Treatment Plant across Karnataka.", x: "32%", y: "75%" },
+  { name: "Station Re-development and Railway Infrastructure Development across Karnataka, Maharashtra, Odisha, and other regions.", x: "32%", y: "63%" },
+  { name: "Video Surveillance at Rajasthan.", x: "58%", y: "58%" },
+  { name: "Implementation of Coach Watering System at Bhopal.", x: "32%", y: "40%" },
 ];
 
 export default function IndiaMap() {
