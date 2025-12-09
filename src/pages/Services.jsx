@@ -4,8 +4,8 @@ import "aos/dist/aos.css";
 
 // Import images
 import service1 from "/images/services/SR1.jpg";
-import service2 from "/images/services/SR2.jpg";
-import service3 from "/images/services/SR3.png";
+import service2 from "/images/services/SR2.png";
+import service3 from "/images/services/SR3.jpg";
 import service4 from "/images/services/SR4.jpg";
 import service5 from "/images/services/SR5.jpg";
 import service6 from "/images/services/SR6.jpg";

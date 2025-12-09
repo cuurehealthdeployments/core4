@@ -81,6 +81,7 @@
 
 
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaGlobe, FaWindows, FaAndroid, FaApple } from "react-icons/fa";
 
@@ -88,17 +89,18 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-800 py-10">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           
           {/* Column 1 */}
           <div>
             <h3 className="font-bold text-lg">Get Core4</h3>
             <ul className="mt-4 space-y-2">
-              <li>Residential Construction</li>
-              <li>Commercial Construction</li>
-              <li>Renovation & Remodeling</li>
-              <li>Infrastructure Development</li>
-              <li>Project Management</li>
+              <li>Railway Infrastructure</li>
+              <li>Water and Wastewater Treatment</li>
+              <li>EHV Transmission and Distribution Systems</li>
+              <li>IManufacturing of HT / LT Distribution Panels</li>
+              <li>Automation and SCADA Systems</li>
+              <li>PMC (Project Management Consultancy)</li>
             </ul>
           </div>
 
@@ -106,13 +108,15 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2">
               <FaGlobe className="text-xl" />
-              <h3 className="font-bold text-lg">Web Browser</h3>
+              <h3 className="font-bold text-lg">Quick Links</h3>
             </div>
             <ul className="mt-4 space-y-2">
-              <li>Industries Served</li>
-              <li>Client Testimonials</li>
-              <li>Case Studies</li>
-              <li>Recent Project</li>
+              <li><Link to="/projects" className="hover:text-slate-500">Projects</Link></li>
+              <li><a href= "/" onClick={(e) => handleScroll(e, "about-section")} className="hover:text-slate-500">Client Testimonials</a></li>
+              <li><a href="/about" className="hover:text-slate-500">About Us</a></li>
+              <li><Link to="/management-team" className="hover:text-slate-500">Our Team</Link></li>
+              <li><Link to="/career" className="hover:text-slate-500">Career</Link></li>
+              <li><a href="/Contact" className="hover:text-slate-500">Contact</a></li>
             </ul>
           </div>
 
@@ -120,17 +124,16 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2">
               <FaWindows className="text-xl" />
-              <h3 className="font-bold text-lg">Windows</h3>
+              <h3 className="font-bold text-lg">Legal</h3>
             </div>
             <ul className="mt-4 space-y-2">
-              <li>Construction Guides</li>
-              <li>Safety & Compliance</li>
-              <li>Cost Estimation Tool</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
             </ul>
           </div>
 
           {/* Column 4 */}
-          <div>
+          {/* <div>
             <div className="flex items-center gap-2">
               <FaAndroid className="text-xl" />
               <h3 className="font-bold text-lg">Android</h3>
@@ -142,10 +145,10 @@ const Footer = () => {
               <li>Consultation Booking</li>
               <li>Site Inspection Services</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 5 */}
-          <div>
+          {/* <div>
             <div className="flex items-center gap-2">
               <FaApple className="text-xl" />
               <h3 className="font-bold text-lg">iOS</h3>
@@ -159,7 +162,7 @@ const Footer = () => {
               <li>Press & Media</li>
               <li>Legal Policies</li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Social Media Icons */}

@@ -209,22 +209,22 @@ const Accordiona = () => {
         },
         {
           name: "HT/LT overhead line construction",
-          image: "/images/projects/PJ2.2.png",
+          image: "/images/projects/PJ2.3.png",
           description: `Overhead line construction plays a vital role in extending power supply to remote, rural, and industrial areas. CORE4 Engineers undertakes HT (High Tension) and LT (Low Tension) overhead line works including pole erection, conductor stringing, insulator installation, earthing, stay wire fixing, and line tensioning. Our teams ensure proper clearances, mechanical strength, and safety compliance as per electrical standards. These overhead networks improve supply reach, enhance distribution capability, and support long-term grid stability.`
         },
         {
           name: "HT/LT underground cable laying",
-          image: "/images/projects/PJ2.3.jpg",
+          image: "/images/projects/PJ2.4.jpg",
           description: `Underground cabling systems offer safer, more reliable, and aesthetically better alternatives to overhead lines. CORE4 Engineers specializes in HT/LT underground cable trenching, ducting, cable pulling, jointing, termination, and route marking. We follow advanced installation practices to protect cables from moisture, soil conditions, and mechanical stress. Our underground cable projects reduce outages, enhance network safety, and are ideal for urban, industrial, and high-density infrastructure.`
         },
         {
           name: "Transformer installation & commissioning",
-          image: "/images/projects/PJ2.4.png",
+          image: "/images/projects/PJ2.5.png",
           description: `Transformers are the backbone of power distribution networks, enabling efficient voltage conversion and load management. CORE4 Engineers provides complete transformer installation services including foundation preparation, oil filtration, connection works, protection relay setup, earthing, and full electrical testing. Our commissioning process ensures optimal efficiency, proper load balancing, and safe operation of power systems. We support both distribution and power transformers across varied capacities.`
         },
         {
           name: "Feeder pillar & distribution network projects",
-          image: "/images/projects/PJ2.5.png",
+          image: "/images/projects/PJ2.6.png",
           description: `Feeder pillars and distribution networks form the final stage of electrical power delivery. CORE4 Engineers designs and installs feeder pillars, distribution boxes, LT panels, and interconnected cable systems to ensure safe and controlled power distribution. Our systems include protection devices, metering, and load management features that enhance reliability and reduce distribution losses. These networks support residential layouts, commercial complexes, industries, and public infrastructure with efficient and well-organized power supply.`
         }
       ]
@@ -267,7 +267,7 @@ const Accordiona = () => {
       image: "/images/projects/PJ4.4.png",
       subItems: [
         {
-          name: "ndustrial EPC turnkey projects",
+          name: "Industrial EPC turnkey projects",
           image: "/images/projects/PJ4.1.png",
           description: `Industrial EPC turnkey projects involve complete end-to-end execution from concept design to final commissioning. CORE4 Engineers handles engineering, procurement, construction, electrification, and automation for large-scale industrial facilities. We deliver fully operational plants ready for production, ensuring accurate planning, material quality, safety standards, and timely execution. Our integrated approach minimizes client involvement, reduces project delays, and ensures a seamless transition from construction to operations.`
         },

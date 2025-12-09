@@ -356,17 +356,24 @@ const ProductPage = () => {
     Mysuru, Karnataka - 570 018
   </p>
   <h3 className="text-center text-xl font-semibold mt-8 mb-4">
-    Picture Of Manufacturing Unit
+    Our Manufacturing Units
   </h3>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 text-center">
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-4 text-center">
   <img
-    src="/images/PR1.png"
+    src="/images/products/PRE1.jpg"
     className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
   />
-
   <img
-    src="/images/PR1.png"
+    src="/images/products/PRE2.jpg"
+    className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
+  />
+  <img
+    src="/images/products/PRE3.jpg"
+    className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
+  />
+  <img
+    src="/images/products/PRE4.jpg"
     className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
   />
 </div>
