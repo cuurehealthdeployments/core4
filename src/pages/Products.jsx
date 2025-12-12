@@ -21,6 +21,22 @@ import product17 from "/images/products/PR17.png";
 
 const products = [
   {
+    title: "Compact Substation 11kv (CSS)",
+    description:
+        `A CSS panel (Compact Secondary Substation) is a
+          compact, factory-built electrical unit integrating
+          MV (medium-voltage) switchgear, a distribution
+          transformer, and LV (low-voltage) bus or
+          switchgear in a single housing. This all-in-one
+          setup saves space and simplifies installation,
+          especially in urban or constrained locations.
+          CSS panels are commonly used to step down
+          power from medium voltage (e.g. 11–33  kV) to
+          low voltage (like 415 V), providing a safe, efficient,
+          and optimized electrical distribution point.`,    
+    img: product8,
+   },
+  {
     title: "Power Control Center Panel (PCC)",
     description:
       `Panel is a robust, centralized low-voltage
@@ -114,22 +130,6 @@ const products = [
       and compliance with IEC standards.`,    
     img: product7,
   },
-   {
-    title: "Compact Substation 11kv (CSS)",
-    description:
-        `A CSS panel (Compact Secondary Substation) is a
-          compact, factory-built electrical unit integrating
-          MV (medium-voltage) switchgear, a distribution
-          transformer, and LV (low-voltage) bus or
-          switchgear in a single housing. This all-in-one
-          setup saves space and simplifies installation,
-          especially in urban or constrained locations.
-          CSS panels are commonly used to step down
-          power from medium voltage (e.g. 11–33  kV) to
-          low voltage (like 415 V), providing a safe, efficient,
-          and optimized electrical distribution point.`,    
-    img: product8,
-   },
    {
     title: "FEEDER PILLAR",
     description:
@@ -273,15 +273,19 @@ const ProductModal = ({ product, onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-[90%] md:w-3/4 lg:w-2/3 xl:w-1/2 max-h-[90vh] overflow-y-auto" data-aos="zoom-in">
-        <img src={product.img} alt={product.title} className="w-full h-96 object-cover rounded-lg mb-4" />
-        <h3 className="text-2xl font-bold">{product.title}</h3>
-        <p className="mt-4 text-gray-700">{product.description}</p>
+        <img src={product.img} alt={product.title} className="w-full h-96 object-contain rounded-lg mb-4" />
+        <div className="w-full mt-4 px-2">
+        <h3 className="text-2xl font-bold text-left">{product.title}</h3>
+        <p className="mt-4 text-gray-700 leading-relaxed text-justify">
+          {product.description}
+        </p>
         <button
           className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition"
           onClick={onClose}
         >
           Close
         </button>
+        </div>
       </div>
     </div>
   );
@@ -316,7 +320,7 @@ const ProductPage = () => {
               <img
                 src={product.img}
                 alt={product.title}
-                className="w-full h-[250px] object-cover rounded-xl shadow-md mb-4"
+                className="w-full h-[250px] object-contain rounded-xl shadow-md mb-4"
               />
               <h3 className="text-xl font-bold text-blue-600">{product.title}</h3>
               <p className="text-gray-600 mt-2 leading-relaxed text-justify">

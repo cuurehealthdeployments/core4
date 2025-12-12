@@ -199,38 +199,6 @@ const Accordiona = () => {
     },
     {
       id: 2,
-      title: "Transmission & Distribution Projects",
-      image: "/images/projects/PJ2.1.png",
-      subItems: [
-        {
-          name: "11kV / 33kV / 66kV / 110kV / 220kV / 400kV substation works",
-          image: "/images/projects/PJ2.1.png",
-          description: `High-voltage substations are a critical part of the power transmission network, ensuring safe and efficient delivery of electricity from generating stations to consumers. CORE4 Engineers executes turnkey substation projects across voltage levels from 11kV to 220kV. Our scope includes design, equipment selection, structure erection, switchgear installation, protection relay configuration, SCADA integration, and system testing. With strong technical expertise and compliance to utility standards, we ensure stable power flow, reduced outages, and long-term reliability for industrial, commercial, and utility clients.`
-        },
-        {
-          name: "HT/LT overhead line construction",
-          image: "/images/projects/PJ2.3.png",
-          description: `Overhead line construction plays a vital role in extending power supply to remote, rural, and industrial areas. CORE4 Engineers undertakes HT (High Tension) and LT (Low Tension) overhead line works including pole erection, conductor stringing, insulator installation, earthing, stay wire fixing, and line tensioning. Our teams ensure proper clearances, mechanical strength, and safety compliance as per electrical standards. These overhead networks improve supply reach, enhance distribution capability, and support long-term grid stability.`
-        },
-        {
-          name: "HT/LT underground cable laying",
-          image: "/images/projects/PJ2.4.jpg",
-          description: `Underground cabling systems offer safer, more reliable, and aesthetically better alternatives to overhead lines. CORE4 Engineers specializes in HT/LT underground cable trenching, ducting, cable pulling, jointing, termination, and route marking. We follow advanced installation practices to protect cables from moisture, soil conditions, and mechanical stress. Our underground cable projects reduce outages, enhance network safety, and are ideal for urban, industrial, and high-density infrastructure.`
-        },
-        {
-          name: "Transformer installation & commissioning",
-          image: "/images/projects/PJ2.5.png",
-          description: `Transformers are the backbone of power distribution networks, enabling efficient voltage conversion and load management. CORE4 Engineers provides complete transformer installation services including foundation preparation, oil filtration, connection works, protection relay setup, earthing, and full electrical testing. Our commissioning process ensures optimal efficiency, proper load balancing, and safe operation of power systems. We support both distribution and power transformers across varied capacities.`
-        },
-        {
-          name: "Feeder pillar & distribution network projects",
-          image: "/images/projects/PJ2.6.png",
-          description: `Feeder pillars and distribution networks form the final stage of electrical power delivery. CORE4 Engineers designs and installs feeder pillars, distribution boxes, LT panels, and interconnected cable systems to ensure safe and controlled power distribution. Our systems include protection devices, metering, and load management features that enhance reliability and reduce distribution losses. These networks support residential layouts, commercial complexes, industries, and public infrastructure with efficient and well-organized power supply.`
-        }
-      ]
-    },
-    {
-      id: 3,
       title: "Water & Wastewater Projects (WTP/STP/ETP)",
       image: "/images/projects/PJ3.1.png",
       subItems: [
@@ -262,127 +230,40 @@ const Accordiona = () => {
       ]
     },
     {
-      id: 4,
-      title: " EPC – Engineering, Procurement & Construction Projects",
-      image: "/images/projects/PJ4.4.png",
+      id: 3,
+      title: "EHV Transmission and Distribution Systems Projects",
+      image: "/images/projects/PJ2.1.png",
       subItems: [
         {
-          name: "Industrial EPC turnkey projects",
-          image: "/images/projects/PJ4.1.png",
-          description: `Industrial EPC turnkey projects involve complete end-to-end execution from concept design to final commissioning. CORE4 Engineers handles engineering, procurement, construction, electrification, and automation for large-scale industrial facilities. We deliver fully operational plants ready for production, ensuring accurate planning, material quality, safety standards, and timely execution. Our integrated approach minimizes client involvement, reduces project delays, and ensures a seamless transition from construction to operations.`
+          name: "11kV / 33kV / 66kV / 110kV / 220kV / 400kV substation works",
+          image: "/images/projects/PJ2.1.png",
+          description: `High-voltage substations are a critical part of the power transmission network, ensuring safe and efficient delivery of electricity from generating stations to consumers. CORE4 Engineers executes turnkey substation projects across voltage levels from 11kV to 220kV. Our scope includes design, equipment selection, structure erection, switchgear installation, protection relay configuration, SCADA integration, and system testing. With strong technical expertise and compliance to utility standards, we ensure stable power flow, reduced outages, and long-term reliability for industrial, commercial, and utility clients.`
         },
         {
-          name: "Commercial building EPC",
-          image: "/images/projects/PJ4.2.png",
-          description: `Commercial EPC projects focus on developing functional, efficient, and safe buildings such as offices, malls, showrooms, and institutional structures. CORE4 Engineers manages architectural design, structural works, MEP systems, electrical distribution, fire safety, and automation. We ensure modern aesthetics, optimal space utilization, and sustainable engineering. Our expertise guarantees high-quality construction, energy-efficient systems, and long-term operational reliability for commercial establishments.`
+          name: "HT/LT overhead line construction",
+          image: "/images/projects/PJ2.3.png",
+          description: `Overhead line construction plays a vital role in extending power supply to remote, rural, and industrial areas. CORE4 Engineers undertakes HT (High Tension) and LT (Low Tension) overhead line works including pole erection, conductor stringing, insulator installation, earthing, stay wire fixing, and line tensioning. Our teams ensure proper clearances, mechanical strength, and safety compliance as per electrical standards. These overhead networks improve supply reach, enhance distribution capability, and support long-term grid stability.`
         },
         {
-          name: "Factories & warehouse EPC",
-          image: "/images/projects/PJ4.3.png",
-          description: `Factories and warehouses require reliable structural integrity, efficient electrical systems, and streamlined logistics planning. CORE4 Engineers delivers turnkey EPC solutions for industrial plants, storage facilities, logistics hubs, and manufacturing units. Our services include civil construction, mechanical installation, electrical works, industrial lighting, and utility connections. We design layouts focusing on workflow efficiency, safety, ventilation, and future expansion, ensuring a robust foundation for industrial operations.`
+          name: "HT/LT underground cable laying",
+          image: "/images/projects/PJ2.4.jpg",
+          description: `Underground cabling systems offer safer, more reliable, and aesthetically better alternatives to overhead lines. CORE4 Engineers specializes in HT/LT underground cable trenching, ducting, cable pulling, jointing, termination, and route marking. We follow advanced installation practices to protect cables from moisture, soil conditions, and mechanical stress. Our underground cable projects reduce outages, enhance network safety, and are ideal for urban, industrial, and high-density infrastructure.`
         },
         {
-          name: "Utility buildings & infrastructure EPC",
-          image: "/images/projects/PJ4.4.png",
-          description: `Utility infrastructure forms the backbone of public and industrial ecosystems. CORE4 Engineers undertakes EPC projects for substations, pumping stations, control rooms, utility centers, and public service structures. Our scope covers civil works, electrical systems, mechanical integration, and automation. These projects enhance community development, support industrial growth, and improve essential service delivery. We ensure durability, compliance with regulatory standards, and long-term reliability in all utility EPC works.`
-        }
-        
-      ]
-    },
-    {
-      id: 5,
-      title: "Civil & Infrastructure Projects",
-      image: "/images/projects/PJ5.3.png",
-      subItems: [
-        {
-          name: "Roads & Highways",
-          image: "/images/projects/PJ5.1.png",
-          description: `Road and highway projects form the backbone of regional connectivity and economic growth. CORE4 Engineers executes complete road construction works including earthwork, pavement layers, asphalt/concrete surfacing, drainage, road furniture, and safety systems. We follow IRC standards, modern surveying techniques, and advanced machinery to ensure durable, smooth, and safe road networks. Our focus on quality and precision ensures long-term performance with reduced maintenance needs.`
+          name: "Transformer installation & commissioning",
+          image: "/images/projects/PJ2.5.png",
+          description: `Transformers are the backbone of power distribution networks, enabling efficient voltage conversion and load management. CORE4 Engineers provides complete transformer installation services including foundation preparation, oil filtration, connection works, protection relay setup, earthing, and full electrical testing. Our commissioning process ensures optimal efficiency, proper load balancing, and safe operation of power systems. We support both distribution and power transformers across varied capacities.`
         },
         {
-          name: "Bridges & Culverts",
-          image: "/images/projects/PJ5.2.png",
-          description: `Bridges and culverts are critical structures that enable smooth flow of transport and water channels. CORE4 Engineers designs and constructs RCC and steel bridges, box culverts, pipe culverts, and flyover components with strict structural and geotechnical compliance. We ensure high load-bearing capacity, stability, and safety under varying environmental conditions. Our engineered solutions improve connectivity, reduce travel time, and support long-term infrastructure reliability.`
-        },
-        {
-          name: "Industrial buildings",
-          image: "/images/projects/PJ5.3.png",
-          description: `Industrial buildings require robust structural design and optimized layouts to support heavy machinery, production lines, and warehouse operations. CORE4 Engineers delivers complete industrial building solutions including foundations, steel structures, RCC works, roofing, ventilation, and electrical integration. Our facilities are designed for safety, efficiency, and future expansion. We follow industry-specific standards to ensure durability, productivity enhancement, and long-term operational performance.`
-        },
-        {
-          name: "Drainage & stormwater networks",
-          image: "/images/projects/PJ5.4.png",
-          description: `Efficient drainage and stormwater systems prevent flooding, protect road infrastructure, and maintain environmental balance. CORE4 Engineers constructs RCC drains, HDPE storm lines, culverts, catch basins, and rainwater channels with proper gradient and hydraulic design. Our solutions ensure smooth water flow during monsoons, reduce erosion, and support sustainable urban planning. These systems are engineered for high durability and minimal maintenance.`
-        },
-        {
-          name: "Public Infrastructure (PPP mode)",
-          image: "/images/projects/PJ5.5.png",
-          description: `Public–Private Partnership (PPP) projects combine government support with private execution expertise to develop essential public utilities. CORE4 Engineers participates in PPP infrastructure projects such as urban electrification, water supply networks, community buildings, smart city services, and public service facilities. We deliver cost-effective, long-lasting infrastructure with efficient engineering, transparent project management, and long-term operational support. These projects enhance community development and improve public service delivery.`
-        }
-      ]
-    },
-    {
-      id: 6,
-      title: "Industrial Electrical Projects",
-      image: "/images/projects/PJ6.1.png",
-      subItems: [
-        {
-          name: "Industrial electrification of complete plants",
-          image: "/images/projects/PJ6.1.png",
-          description: `Industrial electrification ensures that the entire plant receives reliable, efficient, and safe electrical power for operations. CORE4 Engineers provides end-to-end electrification solutions for manufacturing units, processing plants, warehouses, and industrial complexes. Our scope includes power distribution, PCC/MCC installation, transformer integration, earthing networks, bus duct systems, and safety compliance. With precise engineering and load analysis, we ensure uninterrupted power flow, improved energy efficiency, and long-term operational reliability for industrial facilities.`
-        },
-        {
-          name: "LT/HT electrification",
-          image: "/images/projects/PJ6.2.png",
-          description: `LT (Low Tension) and HT (High Tension) electrification are essential for seamless power supply across industrial and commercial environments. CORE4 Engineers executes complete HT/LT works including substation setup, switchgear installation, overhead/underground cabling, protection systems, and transformer integration. We ensure compliance with electrical safety standards, proper fault-level coordination, and reliable distribution infrastructure. Our solutions enhance operational safety, reduce downtime, and support heavy industrial loads effectively.`
-        },
-        {
-          name: "Street lighting projects",
-          image: "/images/projects/PJ6.3.png",
-          description: `Street lighting projects improve visibility, enhance safety, and support urban development. CORE4 Engineers provides complete street lighting solutions including pole erection, cable routing, LED fixtures, smart lighting controls, and feeder pillar installation. We design energy-efficient and low-maintenance systems suitable for highways, layouts, industrial campuses, and public areas. Our lighting networks ensure uniform illumination, reduced power consumption, and long-term reliability.`
-        },
-        {
-          name: "Cable routing & termination projects",
-          image: "/images/projects/PJ6.4.png",
-          description: `Proper cable routing and termination are critical for safe and efficient power distribution in any electrical system. CORE4 Engineers handles detailed cable engineering including route planning, cable tray installation, trenching, pulling, jointing, and termination works. We ensure optimal cable protection, minimal voltage drop, and adherence to electrical safety standards. Our expertise ensures neat installation, long-term durability, and reliable electrical connectivity for industrial and infrastructure projects.`
-        }
-      ]
-    },
-    {
-      id: 7,
-      title: "Automation, SCADA & IoT Projects",
-      image: "/images/projects/PJ7.4.png",
-      subItems: [
-        {
-          name: "PLC automation projects",
-          image: "/images/projects/PJ7.1.png",
-          description: `PLC automation enables precise control, monitoring, and sequencing of industrial processes. CORE4 Engineers delivers complete PLC automation solutions including PLC panel design, programming, I/O configuration, and field integration. We work with leading brands like Siemens, Allen Bradley, Schneider, ABB, and Delta to create reliable, high-performance automation systems. Our PLC solutions help industries reduce manual intervention, improve production accuracy, enhance safety, and maintain stable, continuous operations.`
-        },
-        {
-          name: "SCADA system development",
-          image: "/images/projects/PJ7.2.png",
-          description: `SCADA systems provide centralized monitoring and control for plants, substations, and industrial processes. CORE4 Engineers develops full-scale SCADA architectures including server-based systems, HMI screen design, communication protocols, database integration, and alarm/event management. Our SCADA solutions offer real-time visibility, advanced analytics, and remote operational control. They help clients minimize downtime, improve decision-making, and maintain complete operational oversight across large and complex infrastructures.`
-        },
-        {
-          name: "IoT remote monitoring systems",
-          image: "/images/projects/PJ7.3.png",
-          description: `IoT remote monitoring enables clients to track equipment performance, energy usage, process parameters, and asset health from anywhere. CORE4 Engineers implements IoT dashboards, cloud-based data systems, smart sensors, and wireless gateways tailored for industrial and utility applications. Our IoT solutions provide instant alerts, predictive maintenance insights, and real-time analytics. This significantly reduces manual checks, increases operational efficiency, and ensures smarter, data-driven management.`
-        },
-        {
-          name: "Control room setups",
-          image: "/images/projects/PJ7.4.png",
-          description: `Control rooms are critical operational hubs that centralize monitoring, automation, and safety systems. CORE4 Engineers designs and installs ergonomic, technology-driven control rooms that house SCADA systems, dispatch panels, communication equipment, network interfaces, and large display units. Our layouts focus on operator comfort, workflow optimization, and seamless integration with field equipment. These control rooms improve operational responsiveness, coordination, and situational awareness across plants and infrastructure systems.`
-        },
-        {
-          name: "Process automation for water/industry",
-          image: "/images/projects/PJ7.5.png",
-          description: `Process automation improves accuracy, efficiency, and safety in both water treatment and industrial production environments. CORE4 Engineers automates filtration systems, aeration control, chemical dosing, pump operations, conveyor lines, batching systems, and various industrial processes using PLC/SCADA/IoT technologies. Automation optimizes energy consumption, stabilizes process parameters, reduces human error, and ensures consistent output quality. Our solutions create high-performing, reliable processes suitable for continuous operations.`
+          name: "Feeder pillar & distribution network projects",
+          image: "/images/projects/PJ2.6.png",
+          description: `Feeder pillars and distribution networks form the final stage of electrical power delivery. CORE4 Engineers designs and installs feeder pillars, distribution boxes, LT panels, and interconnected cable systems to ensure safe and controlled power distribution. Our systems include protection devices, metering, and load management features that enhance reliability and reduce distribution losses. These networks support residential layouts, commercial complexes, industries, and public infrastructure with efficient and well-organized power supply.`
         }
       ]
     },
     {
       id: 8,
-      title: "Panel Manufacturing & Substation Projects",
+      title: "Manufacturing of HT / LT Distribution Panels Projects",
       image: "/images/projects/PJ8.3.png",
       subItems: [
         {
@@ -418,32 +299,151 @@ const Accordiona = () => {
       ]
     },
     {
-      id: 9,
-      title: "Public–Private Partnership (PPP) Projects",
-      image: "/images/projects/PJ9.3.png",
+      id: 7,
+      title: "Automation and SCADA Systems Projects",
+      image: "/images/projects/PJ7.4.png",
       subItems: [
         {
-          name: "Urban infrastructure",
-          image: "/images/projects/PJ9.1.png",
-          description: `Urban infrastructure projects require robust and reliable electrical systems to support growing cities and industrial areas. CORE4 Engineers designs and implements electrical solutions for roads, transportation hubs, commercial complexes, and public facilities, ensuring safe, efficient, and scalable power distribution. Our expertise ensures that urban infrastructure is powered with minimal downtime and maximum operational efficiency, meeting the demands of modern city environments.`
+          name: "PLC automation projects",
+          image: "/images/projects/PJ7.1.png",
+          description: `PLC automation enables precise control, monitoring, and sequencing of industrial processes. CORE4 Engineers delivers complete PLC automation solutions including PLC panel design, programming, I/O configuration, and field integration. We work with leading brands like Siemens, Allen Bradley, Schneider, ABB, and Delta to create reliable, high-performance automation systems. Our PLC solutions help industries reduce manual intervention, improve production accuracy, enhance safety, and maintain stable, continuous operations.`
         },
         {
-          name: "Smart city electrical works",
-          image: "/images/projects/PJ9.2.png",
-          description: `Smart city initiatives demand intelligent, technology-driven electrical systems. At CORE4 Engineers, we deliver integrated solutions for smart lighting, automated energy management, IoT-enabled monitoring, and centralized control systems. Our designs focus on energy efficiency, sustainability, and seamless connectivity, enabling cities to operate smarter, safer, and more efficiently.`
+          name: "SCADA system development",
+          image: "/images/projects/PJ7.2.png",
+          description: `SCADA systems provide centralized monitoring and control for plants, substations, and industrial processes. CORE4 Engineers develops full-scale SCADA architectures including server-based systems, HMI screen design, communication protocols, database integration, and alarm/event management. Our SCADA solutions offer real-time visibility, advanced analytics, and remote operational control. They help clients minimize downtime, improve decision-making, and maintain complete operational oversight across large and complex infrastructures.`
         },
         {
-          name: "Utility & public service projects",
-          image: "/images/projects/PJ9.3.png",
-          description: `Utility and public service projects, including power distribution, street lighting, and municipal electrical installations, require dependable and maintainable systems. CORE4 Engineers provides turnkey solutions for these projects, incorporating high-quality panels, switchgear, and cable networks to ensure uninterrupted services for communities and institutions. Our solutions enhance reliability, reduce operational costs, and support long-term infrastructure growth.`
+          name: "IoT remote monitoring systems",
+          image: "/images/projects/PJ7.3.png",
+          description: `IoT remote monitoring enables clients to track equipment performance, energy usage, process parameters, and asset health from anywhere. CORE4 Engineers implements IoT dashboards, cloud-based data systems, smart sensors, and wireless gateways tailored for industrial and utility applications. Our IoT solutions provide instant alerts, predictive maintenance insights, and real-time analytics. This significantly reduces manual checks, increases operational efficiency, and ensures smarter, data-driven management.`
         },
         {
-          name: "Water supply & distribution networks",
-          image: "/images/projects/PJ9.4.png",
-          description: `Reliable water supply systems depend on efficient electrical control and distribution networks for pumping, treatment, and monitoring. CORE4 Engineers designs and installs electrical systems for water supply and distribution networks, including control panels, automation systems, and power supply arrangements. Our solutions ensure uninterrupted water delivery, energy-efficient operations, and integration with smart monitoring platforms for improved resource management.`
+          name: "Control room setups",
+          image: "/images/projects/PJ7.4.png",
+          description: `Control rooms are critical operational hubs that centralize monitoring, automation, and safety systems. CORE4 Engineers designs and installs ergonomic, technology-driven control rooms that house SCADA systems, dispatch panels, communication equipment, network interfaces, and large display units. Our layouts focus on operator comfort, workflow optimization, and seamless integration with field equipment. These control rooms improve operational responsiveness, coordination, and situational awareness across plants and infrastructure systems.`
+        },
+        {
+          name: "Process automation for water/industry",
+          image: "/images/projects/PJ7.5.png",
+          description: `Process automation improves accuracy, efficiency, and safety in both water treatment and industrial production environments. CORE4 Engineers automates filtration systems, aeration control, chemical dosing, pump operations, conveyor lines, batching systems, and various industrial processes using PLC/SCADA/IoT technologies. Automation optimizes energy consumption, stabilizes process parameters, reduces human error, and ensures consistent output quality. Our solutions create high-performing, reliable processes suitable for continuous operations.`
         }
       ]
-    }
+    },
+    // {
+    //   id: 4,
+    //   title: " EPC – Engineering, Procurement & Construction Projects",
+    //   image: "/images/projects/PJ4.4.png",
+    //   subItems: [
+    //     {
+    //       name: "Industrial EPC turnkey projects",
+    //       image: "/images/projects/PJ4.1.png",
+    //       description: `Industrial EPC turnkey projects involve complete end-to-end execution from concept design to final commissioning. CORE4 Engineers handles engineering, procurement, construction, electrification, and automation for large-scale industrial facilities. We deliver fully operational plants ready for production, ensuring accurate planning, material quality, safety standards, and timely execution. Our integrated approach minimizes client involvement, reduces project delays, and ensures a seamless transition from construction to operations.`
+    //     },
+    //     {
+    //       name: "Commercial building EPC",
+    //       image: "/images/projects/PJ4.2.png",
+    //       description: `Commercial EPC projects focus on developing functional, efficient, and safe buildings such as offices, malls, showrooms, and institutional structures. CORE4 Engineers manages architectural design, structural works, MEP systems, electrical distribution, fire safety, and automation. We ensure modern aesthetics, optimal space utilization, and sustainable engineering. Our expertise guarantees high-quality construction, energy-efficient systems, and long-term operational reliability for commercial establishments.`
+    //     },
+    //     {
+    //       name: "Factories & warehouse EPC",
+    //       image: "/images/projects/PJ4.3.png",
+    //       description: `Factories and warehouses require reliable structural integrity, efficient electrical systems, and streamlined logistics planning. CORE4 Engineers delivers turnkey EPC solutions for industrial plants, storage facilities, logistics hubs, and manufacturing units. Our services include civil construction, mechanical installation, electrical works, industrial lighting, and utility connections. We design layouts focusing on workflow efficiency, safety, ventilation, and future expansion, ensuring a robust foundation for industrial operations.`
+    //     },
+    //     {
+    //       name: "Utility buildings & infrastructure EPC",
+    //       image: "/images/projects/PJ4.4.png",
+    //       description: `Utility infrastructure forms the backbone of public and industrial ecosystems. CORE4 Engineers undertakes EPC projects for substations, pumping stations, control rooms, utility centers, and public service structures. Our scope covers civil works, electrical systems, mechanical integration, and automation. These projects enhance community development, support industrial growth, and improve essential service delivery. We ensure durability, compliance with regulatory standards, and long-term reliability in all utility EPC works.`
+    //     }
+        
+    //   ]
+    // },
+    // {
+    //   id: 5,
+    //   title: "Civil & Infrastructure Projects",
+    //   image: "/images/projects/PJ5.3.png",
+    //   subItems: [
+    //     {
+    //       name: "Roads & Highways",
+    //       image: "/images/projects/PJ5.1.png",
+    //       description: `Road and highway projects form the backbone of regional connectivity and economic growth. CORE4 Engineers executes complete road construction works including earthwork, pavement layers, asphalt/concrete surfacing, drainage, road furniture, and safety systems. We follow IRC standards, modern surveying techniques, and advanced machinery to ensure durable, smooth, and safe road networks. Our focus on quality and precision ensures long-term performance with reduced maintenance needs.`
+    //     },
+    //     {
+    //       name: "Bridges & Culverts",
+    //       image: "/images/projects/PJ5.2.png",
+    //       description: `Bridges and culverts are critical structures that enable smooth flow of transport and water channels. CORE4 Engineers designs and constructs RCC and steel bridges, box culverts, pipe culverts, and flyover components with strict structural and geotechnical compliance. We ensure high load-bearing capacity, stability, and safety under varying environmental conditions. Our engineered solutions improve connectivity, reduce travel time, and support long-term infrastructure reliability.`
+    //     },
+    //     {
+    //       name: "Industrial buildings",
+    //       image: "/images/projects/PJ5.3.png",
+    //       description: `Industrial buildings require robust structural design and optimized layouts to support heavy machinery, production lines, and warehouse operations. CORE4 Engineers delivers complete industrial building solutions including foundations, steel structures, RCC works, roofing, ventilation, and electrical integration. Our facilities are designed for safety, efficiency, and future expansion. We follow industry-specific standards to ensure durability, productivity enhancement, and long-term operational performance.`
+    //     },
+    //     {
+    //       name: "Drainage & stormwater networks",
+    //       image: "/images/projects/PJ5.4.png",
+    //       description: `Efficient drainage and stormwater systems prevent flooding, protect road infrastructure, and maintain environmental balance. CORE4 Engineers constructs RCC drains, HDPE storm lines, culverts, catch basins, and rainwater channels with proper gradient and hydraulic design. Our solutions ensure smooth water flow during monsoons, reduce erosion, and support sustainable urban planning. These systems are engineered for high durability and minimal maintenance.`
+    //     },
+    //     {
+    //       name: "Public Infrastructure (PPP mode)",
+    //       image: "/images/projects/PJ5.5.png",
+    //       description: `Public–Private Partnership (PPP) projects combine government support with private execution expertise to develop essential public utilities. CORE4 Engineers participates in PPP infrastructure projects such as urban electrification, water supply networks, community buildings, smart city services, and public service facilities. We deliver cost-effective, long-lasting infrastructure with efficient engineering, transparent project management, and long-term operational support. These projects enhance community development and improve public service delivery.`
+    //     }
+    //   ]
+    // },
+    // {
+    //   id: 6,
+    //   title: "Industrial Electrical Projects",
+    //   image: "/images/projects/PJ6.1.png",
+    //   subItems: [
+    //     {
+    //       name: "Industrial electrification of complete plants",
+    //       image: "/images/projects/PJ6.1.png",
+    //       description: `Industrial electrification ensures that the entire plant receives reliable, efficient, and safe electrical power for operations. CORE4 Engineers provides end-to-end electrification solutions for manufacturing units, processing plants, warehouses, and industrial complexes. Our scope includes power distribution, PCC/MCC installation, transformer integration, earthing networks, bus duct systems, and safety compliance. With precise engineering and load analysis, we ensure uninterrupted power flow, improved energy efficiency, and long-term operational reliability for industrial facilities.`
+    //     },
+    //     {
+    //       name: "LT/HT electrification",
+    //       image: "/images/projects/PJ6.2.png",
+    //       description: `LT (Low Tension) and HT (High Tension) electrification are essential for seamless power supply across industrial and commercial environments. CORE4 Engineers executes complete HT/LT works including substation setup, switchgear installation, overhead/underground cabling, protection systems, and transformer integration. We ensure compliance with electrical safety standards, proper fault-level coordination, and reliable distribution infrastructure. Our solutions enhance operational safety, reduce downtime, and support heavy industrial loads effectively.`
+    //     },
+    //     {
+    //       name: "Street lighting projects",
+    //       image: "/images/projects/PJ6.3.png",
+    //       description: `Street lighting projects improve visibility, enhance safety, and support urban development. CORE4 Engineers provides complete street lighting solutions including pole erection, cable routing, LED fixtures, smart lighting controls, and feeder pillar installation. We design energy-efficient and low-maintenance systems suitable for highways, layouts, industrial campuses, and public areas. Our lighting networks ensure uniform illumination, reduced power consumption, and long-term reliability.`
+    //     },
+    //     {
+    //       name: "Cable routing & termination projects",
+    //       image: "/images/projects/PJ6.4.png",
+    //       description: `Proper cable routing and termination are critical for safe and efficient power distribution in any electrical system. CORE4 Engineers handles detailed cable engineering including route planning, cable tray installation, trenching, pulling, jointing, and termination works. We ensure optimal cable protection, minimal voltage drop, and adherence to electrical safety standards. Our expertise ensures neat installation, long-term durability, and reliable electrical connectivity for industrial and infrastructure projects.`
+    //     }
+    //   ]
+    // },
+    // {
+    //   id: 9,
+    //   title: "Public–Private Partnership (PPP) Projects",
+    //   image: "/images/projects/PJ9.3.png",
+    //   subItems: [
+    //     {
+    //       name: "Urban infrastructure",
+    //       image: "/images/projects/PJ9.1.png",
+    //       description: `Urban infrastructure projects require robust and reliable electrical systems to support growing cities and industrial areas. CORE4 Engineers designs and implements electrical solutions for roads, transportation hubs, commercial complexes, and public facilities, ensuring safe, efficient, and scalable power distribution. Our expertise ensures that urban infrastructure is powered with minimal downtime and maximum operational efficiency, meeting the demands of modern city environments.`
+    //     },
+    //     {
+    //       name: "Smart city electrical works",
+    //       image: "/images/projects/PJ9.2.png",
+    //       description: `Smart city initiatives demand intelligent, technology-driven electrical systems. At CORE4 Engineers, we deliver integrated solutions for smart lighting, automated energy management, IoT-enabled monitoring, and centralized control systems. Our designs focus on energy efficiency, sustainability, and seamless connectivity, enabling cities to operate smarter, safer, and more efficiently.`
+    //     },
+    //     {
+    //       name: "Utility & public service projects",
+    //       image: "/images/projects/PJ9.3.png",
+    //       description: `Utility and public service projects, including power distribution, street lighting, and municipal electrical installations, require dependable and maintainable systems. CORE4 Engineers provides turnkey solutions for these projects, incorporating high-quality panels, switchgear, and cable networks to ensure uninterrupted services for communities and institutions. Our solutions enhance reliability, reduce operational costs, and support long-term infrastructure growth.`
+    //     },
+    //     {
+    //       name: "Water supply & distribution networks",
+    //       image: "/images/projects/PJ9.4.png",
+    //       description: `Reliable water supply systems depend on efficient electrical control and distribution networks for pumping, treatment, and monitoring. CORE4 Engineers designs and installs electrical systems for water supply and distribution networks, including control panels, automation systems, and power supply arrangements. Our solutions ensure uninterrupted water delivery, energy-efficient operations, and integration with smart monitoring platforms for improved resource management.`
+    //     }
+    //   ]
+    // }
   ];
 
 

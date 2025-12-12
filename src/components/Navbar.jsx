@@ -580,12 +580,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-md p-4 flex justify-between items-center">
+    <nav className="bg-white shadow-md p-2 flex justify-between items-center">
       {/* Logo */}
-      <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-14 w-auto ml-5" /></Link>
+      <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-20 w-42 ml-5" /></Link>
 
       {/* Desktop Navbar */}
-      <ul className="hidden lg:flex space-x-9 text-lg items-center">
+      <ul className="hidden lg:flex space-x-12 text-xl items-center">
         <li><Link to="/" className="hover:text-blue-500">Home</Link></li>
 
 
@@ -637,18 +637,6 @@ const Navbar = () => {
           )}
         </li> */}
 
-        {/* Core4Energy - External Link in Green */}
-        <li>
-          <div className="border-2 border-green-500 hover:bg-green-50 font-medium px-4 py-2 rounded-lg transition-all">
-          <button 
-            onClick={() => handleExternalLink('https://core4engineers.com/')}
-            className="text-green-600 hover:text-green-800 font-medium transition-colors duration-200"
-          >
-            Core4 Energy
-          </button>
-          </div>
-        </li>
-
         {/* Contact Us Button */}
         <li><a href="/" className="bg-blue-600 text-white px-4 py-2 rounded" onClick={(e) => handleScroll(e, "contact-section")}>Contact Us</a></li>
       </ul>
@@ -688,19 +676,6 @@ const Navbar = () => {
             </ul>
           )}
         </li> */}
-
-        {/* Mobile Core4Energy Link */}
-        <li>
-          <button 
-            onClick={() => {
-              handleExternalLink('https://core4engineers.com');
-              setIsOpen(false);
-            }}
-            className="block px-6 py-4 font-medium text-green-600 hover:text-green-700"
-          >
-            Core4 Energy
-          </button>
-        </li>
 
         {/* Contact Us Button in Mobile */}
         <li><a href="/" className="block bg-blue-600 text-white px-6 py-4 font-medium" onClick={(e) => handleScroll(e, "contact-section")}>Contact Us</a></li>

@@ -1,15 +1,23 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const images = [
-  { src: "/images/Ga1.jpg", alt: "Electric poles with wires", caption: "Electrical Infrastructure" },
-  { src: "/images/Ga2.jpg", alt: "Construction workers on-site", caption: "Ongoing Construction" },
-  { src: "/images/Ga3.jpg", alt: "Modern building exterior", caption: "Architectural Design" },
-  { src: "/images/Ga4.jpg", alt: "Excavator at work", caption: "Earthworks & Excavation" },
-  { src: "/images/Ga5.jpg", alt: "Bridge construction site", caption: "Bridge Engineering" },
-  { src: "/images/Ga6.jpg", alt: "Road being paved", caption: "Road Development" },
-  { src: "/images/Ga7.jpg", alt: "Steel framework of a building", caption: "Structural Engineering" },
-  { src: "/images/Ga8.jpg", alt: "Green building with solar panels", caption: "Sustainable Construction" },
-  { src: "/images/Ga9.jpg", alt: "Blueprints and tools on a desk", caption: "Project Planning & Design" },
+  { src: "/images/products/PR1.png" },
+  { src: "/images/products/PR2.png" },
+  { src: "/images/products/PR3.png" },
+  { src: "/images/products/PR4.png" },
+  { src: "/images/products/PR5.png" },
+  { src: "/images/products/PR6.png" },
+  { src: "/images/products/PR7.png" },
+  { src: "/images/products/PR8.png" },
+  { src: "/images/products/PR9.png" },
+  { src: "/images/products/PR10.png" },
+  { src: "/images/products/PR11.png" },
+  { src: "/images/products/PR12.png" },
+  { src: "/images/products/PR13.png" },
+  { src: "/images/products/PR14.png" },
+  { src: "/images/products/PR15.png" },
+  { src: "/images/products/PR16.png" },
+  { src: "/images/products/PR17.png" },
 ];
 
 const Gallery = () => {
@@ -41,9 +49,8 @@ const Gallery = () => {
           Better Tomorrow for Generations to Come
         </h2>
         <p className="text-gray-600 mt-2">
-          Diverse infrastructure projects, from lift irrigation to water treatment, connect communities, 
-          protect resources, and drive progress with precision engineering.{" "}
-          <a href="#" className="text-red-600 font-semibold">Click Here</a>
+          Built on trust, engineered with precision — we create infrastructure that enhances lives, 
+          connects communities, and strengthens the foundation for tomorrow’s growth.
         </p>
       </div>
 
@@ -51,11 +58,14 @@ const Gallery = () => {
       <div ref={scrollContainerRef} className="overflow-hidden whitespace-nowrap mt-8 pb-4">
         <div className="inline-flex space-x-4">
           {images.map((img, index) => (
-            <div key={index} className="min-w-[250px] md:min-w-[350px] cursor-pointer">
+            <div
+              key={index}
+              className="min-w-[250px] md:min-w-[350px] h-56 bg-white flex items-center justify-center rounded-lg shadow-lg cursor-pointer"
+            >
               <img
-                src={img.src} // ✅ Fixed issue: Correct src usage
+                src={img.src}
                 alt={img.alt}
-                className="rounded-lg shadow-lg hover:opacity-80 transition"
+                className="max-h-full max-w-full object-contain"
                 onClick={() => setSelectedImage(img)}
               />
             </div>
@@ -64,7 +74,7 @@ const Gallery = () => {
       </div>
 
       {/* Modal */}
-      {selectedImage && (
+      {/* {selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="relative bg-white p-4 rounded-lg max-w-3xl">
             <button 
@@ -73,11 +83,11 @@ const Gallery = () => {
             >
               &times;
             </button>
-            <img src={selectedImage.src} alt={selectedImage.alt} className="rounded-lg w-full" /> {/* ✅ Fixed issue */}
+            <img src={selectedImage.src} alt={selectedImage.alt} className="rounded-lg w-full" /> 
             <p className="text-center mt-2 font-semibold text-gray-700">{selectedImage.caption}</p>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };

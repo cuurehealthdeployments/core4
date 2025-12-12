@@ -28,38 +28,32 @@ const services = [
         <br /><br />
         <span className="font-bold">Our Expertise :</span>
         <br />
-        We provide end-to-end railway infrastructure services covering every stage of a
-        project — from feasibility studies and detailed design to construction supervision
-        and asset management.
+        We provide end-to-end railway infrastructure services covering every stage of a project — from feasibility studies and detailed design to 
+        construction supervision and asset management. With a focus on efficiency, reliability, and sustainability, our team ensures that every project meets 
+        the highest standards of performance and compliance.
         <br /><br />
         <span className="font-bold">Our Railway Infrastructure Services Include :</span><br />
-        <span className="font-bold">➣ Railway Electrification </span><br />
-        Precision engineering for Over Head Electrification (OHE) works, associated Traction Sub-Stations (TSS) with necessary Power Supply Installations for 1 X 25KV and 2 X 25KV systems.
-        <br />
-        <span className="font-bold">➣ Railway Foot-over Bridges & Structures </span><br />
+        <span className="font-bold">➣ Railway Electrification - </span>
+        Precision engineering for Over Head Electrification (OHE) works, associated Traction Sub-Stations (TSS) with necessary Power Supply Installations for 1 X 25KV and 2 X 25KV systems.<br />
+        <span className="font-bold">➣ Railway Foot-over Bridges & Structures - </span>
         Design, Engineer, Fabrication and Erection of Footover bridges, culverts, retaining walls, and other civil structures.
         <br />
-        <span className="font-bold">➣ Railway Stations & Terminals </span>
+        <span className="font-bold">➣ Railway Stations & Terminals - </span>
         Planning and engineering of Railway Station Redevelopment of passenger and freight stations with an emphasis on accessibility, functionality, commercial and safety.
         <br />
-        <span className="font-bold">➣ Signalling & Telecom works </span>
-        <br />
+        <span className="font-bold">➣ Signalling & Telecom works - </span>
         Integration of track and systems interfaces to ensure safe and efficient operations.
         <br />
-        <span className="font-bold">➣ Drainage & Earthworks </span>
-        <br />
+        <span className="font-bold">➣ Drainage & Earthworks - </span>
         Design of subgrade, embankments, and drainage systems to ensure long-term stability and durability.
         <br />
-        <span className="font-bold">➣ Project Management & Supervision </span>
-        <br />
+        <span className="font-bold">➣ Project Management & Supervision - </span>
         Comprehensive oversight to ensure quality, cost, and schedule targets are achieved.
         <br />
-        <span className="font-bold">➣ Rehabilitation & Upgrading Works </span>
-        <br />
+        <span className="font-bold">➣ Rehabilitation & Upgrading Works -</span>
         Modernization of existing railway assets for improved performance and reduced maintenance costs.
         <br />
-        <span className="font-bold">➣ Pre – Engineered Building </span>
-        <br />
+        <span className="font-bold">➣ Pre – Engineered Building - </span>
         Design, Fabrication, and Erection of Pre – Engineered buildings focusing on reduced construction time, reliability and safety.
         <br /><br />
 
@@ -76,32 +70,29 @@ const services = [
   },
   {
     title: "Water and Wastewater Treatment",
-    preview: `At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective Water
-        and Wastewater Treatment solutions designed to meet the needs of municipalities,
-        industries, and communities.`,
+    preview: `At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective Water and Wastewater Treatment solutions 
+    designed to meet the needs of municipalities, industries, and communities. Our mission is to deliver engineering excellence that ensures 
+    clean water for today — and a healthier environment for the future.`,
     description: (
       <>
-        At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective Water
-        and Wastewater Treatment solutions designed to meet the needs of municipalities,
-        industries, and communities.
+        At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective Water and Wastewater Treatment solutions 
+        designed to meet the needs of municipalities, industries, and communities. Our mission is to deliver engineering excellence that ensures 
+        clean water for today — and a healthier environment for the future.
         <br /><br />
         <span className="font-bold">Our Expertise :</span><br />
-        We specialize in the Planning, Design, Construction, and Optimization of water and
-        wastewater treatment systems.
+        We specialize in the Planning, Design, Construction, and Optimization of water and wastewater treatment systems. Our multidisciplinary team of civil, environmental, and process engineers brings a deep understanding of treatment technologies, environmental standards, and operational efficiency to every project.
         <br /><br />
         <span className="font-bold">Our Water & Wastewater Services Include :</span>
         <br />
         <span className="font-bold">➣ Water Treatment Plants (WTP):</span><br />
-        Design and implementation of plants for purification, filtration, and disinfection of
-        raw water.
+        Design and implementation of plants for purification, filtration, and disinfection of raw water to ensure safe and reliable supply.
         <br />
         <span className="font-bold">➣ Wastewater Treatment Plants (WWTP):</span><br />
         Comprehensive solutions for domestic and industrial wastewater, including
         biological, chemical, and physical treatment systems.
         <br />
         <span className="font-bold">➣ Sewage Treatment Systems:</span><br />
-        Design and rehabilitation of sewer networks, pumping stations, and treatment
-        facilities.
+        Design and rehabilitation of sewer networks, pumping stations, and treatment facilities to manage urban wastewater efficiently.
         <br />
         <span className="font-bold">➣ Effluent Treatment Plants (ETP):</span>
         <br />
@@ -109,21 +100,21 @@ const services = [
         <br />
         <span className="font-bold">➣ Sludge Management:</span>
         <br />
-        Sustainable handling, treatment, and disposal or reuse of sludge.
+        Sustainable handling, treatment, and disposal or reuse of sludge through advanced drying and digestion processes.
         <br />
         <span className="font-bold">➣ Water Recycling & Reuse:</span>
         <br />
-        Integration of advanced technologies for water reuse and resource recovery.
+        Integration of advanced technologies for resource recovery and water reuse, supporting circular economy principles.
         <br />
         <span className="font-bold">➣ Operation & Maintenance Support:</span>
         <br />
         Long-term operational services, performance monitoring, and capacity-building.
         <br /><br />
         <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
-        ➣ Proven experience in Designing and Executing Treatment facilities.<br />
-        ➣ Commitment to Environmental sustainability.<br />
-        ➣ Integration of state-of-the-art technologies.<br />
-        ➣ A client-focused approach for every project.
+        ➣ Proven experience in Designing and Executing Treatment facilities that meet local and international standards.<br />
+        ➣ Commitment to Environmental sustainability and resource efficiency.<br />
+        ➣ Integration of state-of-the-art technologies for optimized plant performance and reduced lifecycle costs.<br />
+        ➣ A client-focused approach that ensures tailored solutions for every project scale and requirement.
         <br /><br />
         At CORE4 ENGINEERS Limited, we believe that access to clean water and responsible
         wastewater management are essential to sustainable development. Our goal is to engineer
@@ -135,92 +126,90 @@ const services = [
   },
   {
     title: "EHV Transmission and Distribution Systems",
-    preview: `At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective EHV Transmission and Distribution 
-        solutions. Our team covers full project cycles, from design to commissioning, for overhead lines, substations, 
-        urban & rural electrification, cable engineering, SCADA and grid upgrades.`,
+    preview: `At CORE4 ENGINEERS Limited, we deliver advanced engineering solutions for Extra High Voltage (EHV) Transmission and Distribution Systems, enabling reliable power delivery from generation sources to consumers. With a focus on performance, safety, and sustainability, we provide end-to-end services that support the growth and modernization of electrical networks across urban and industrial sectors.`,
     description: (
       <>
-        At CORE4 ENGINEERS Limited, we provide innovative, sustainable, and cost-effective EHV Transmission and Distribution 
-        solutions. Our team covers full project cycles, from design to commissioning, for overhead lines, substations, 
-        urban & rural electrification, cable engineering, SCADA and grid upgrades.
+        At CORE4 ENGINEERS Limited, we deliver advanced engineering solutions for Extra High Voltage (EHV) Transmission and Distribution Systems, enabling reliable power delivery from generation sources to consumers. With a focus on performance, safety, and sustainability, we provide end-to-end services that support the growth and modernization of electrical networks across urban and industrial sectors.
         <br /><br />
+        <span className="font-bold">Our Expertise :</span><br />
+        Our multidisciplinary team of electrical, civil, and structural engineers brings in-depth experience in the planning, design, construction, testing, and commissioning of transmission and distribution infrastructure. We combine technical precision with innovative practices to ensure efficient energy transmission, reduced losses, and long-term operational reliability.        <br /><br />
         <span className="font-bold">Our Services Include:</span>
         <br />
         <span className="font-bold">➣ Transmission Line Works (Up to 440 kV):</span>
-        Engineering design and optimization of overhead transmission lines, including route selection and tower design for 11kV to 400kV.
+        We conduct Engineering design and optimization of overhead transmission lines, including route selection, tower design, and structural analysis for 11kV to 400kV for State Transmission & Distribution company, Independent Power Producers (IPP), ESCOMs, Railway Traction Network Etc with distribution networks. 
         <br />
         <span className="font-bold">➣ Substation Design (AIS & GIS):</span>
-        Design, Supply, Erection and Commissioning of Air-Insulated and Gas-Insulated substations.
+        Design, Supply, Erection and Commissioning of Sub – Station layouts of Air-Insulated and Gas-Insulated substations, covering electrical – civil for sub-station voltage raging from 400kV / 220kV / 132kV / 110kV / 66kV / 33kV / 11kV systems, for ESCOMs, Railway Traction System along with control system integration.
         <br />
         <span className="font-bold">➣ Distribution Network Systems:</span>
-        Planning and implementation of medium and low-voltage distribution networks for urban and rural electrification.
+        Planning and implementation of medium and low-voltage distribution networks for urban and rural electrification of voltage 33kV / 11kV systems. Our focus is to Design, Execute and implement robust distribution system emphasising on reaching every individual sustainably 
         <br />
         <span className="font-bold">➣ Cable Engineering:</span>
-        Design and installation of EHV underground systems.
+        Design and installation of EHV underground systems with advanced thermal and electrical modelling for voltage upto 132kV / 66kV even higher voltage as per client requirement. Our team is experienced in Execution of EHV cable works including Commissioning. 
         <br />
         <span className="font-bold">➣ Protection, Control & SCADA Systems:</span>
-        Integration of automation, monitoring, and control for efficient grid operation.
+        We provide Integration of automation, control, and monitoring systems for efficient grid operation and fault management systems. Our team of Automation engineers integrate various systems from Sub-Stations, Transmission line C&R panels up till load dispatch centres. The service can be extended to IPPs and Transmission companies. 
         <br />
         <span className="font-bold">➣ Project Management & Supervision:</span>
-        Support for design, procurement, construction, testing and commissioning.
+        Comprehensive support through every project stage — Design, Procurement, Construction, Testing and Commissioning.
         <br />
         <span className="font-bold">➣ Upgrading & Rehabilitation Works:</span>
-        Modernization of existing infrastructure for better reliability and capacity.
+        Modernization of existing transmission and distribution infrastructure to improve capacity and reliability. We design upgradation systems with cost effective and sustainable way, serving areas across sectors such as Industrial, Residential, and Electric Vehicle (EV). 
         <br /><br />
         <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
-        ➣ Proven expertise in EHV system design.<br />
-        ➣ International standards (IEC, IEEE, IS).<br />
-        ➣ Cutting-edge, sustainable engineering.<br />
-        ➣ Commitment to Quality, Safety, and Timely delivery.<br /><br />
-        At CORE4 ENGINEERS Limited, our mission is to empower communities and industries with
-        efficient, resilient, and future-ready power infrastructure. We ensure that every project we
-        deliver contributes to a stronger, smarter, and more sustainable energy network.
+        ➣ Proven expertise in EHV system design, installation, and commissioning.<br />
+        ➣ Adherence to International standards (IEC, IEEE, IS) and local regulations.<br />
+        ➣ Integration of cutting-edge technology and sustainable engineering practices.<br />
+        ➣ Experienced team offering comprehensive multidisciplinary solutions.<br /><br />
+        At CORE4 ENGINEERS Limited, our mission is to empower communities and industries with efficient, resilient, and future-ready power infrastructure. We ensure that every project we deliver contributes to a stronger, smarter, and more sustainable energy network.
       </>
     ),
     img: service3,
   },
   {
     title: "Manufacturing of HT / LT Distribution Panels",
-    preview: ` At CORE4 ENGINEERS Limited, we deliver advanced engineering solutions for Extra High
-        Voltage (EHV) Transmission and Distribution Systems, enabling reliable power delivery from generation sources to consumers.`,
+    preview: ` At CORE4 ENGINEERS Limited, we specialize in the Design, Engineering, and Manufacturing of High Tension (HT) i.e upto 33kV and Low Tension (LT) i.e. upto 1.1kV Electrical Distribution panels that ensure safe, reliable, and efficient power distribution across industrial, commercial, and infrastructure projects. Our panels are built with precision, adhering to stringent quality standards and tailored to meet client-specific requirements.`,
     description: (
       <>
-        At CORE4 ENGINEERS Limited, we deliver advanced engineering solutions for Extra High
-        Voltage (EHV) Transmission and Distribution Systems, enabling reliable power delivery from generation sources to consumers.
+        At CORE4 ENGINEERS Limited, we specialize in the Design, Engineering, and Manufacturing of High Tension (HT) i.e upto 33kV and Low Tension (LT) i.e. upto 1.1kV Electrical Distribution panels that ensure safe, reliable, and efficient power distribution across industrial, commercial, and infrastructure projects. Our panels are built with precision, adhering to stringent quality standards and tailored to meet client-specific requirements.
         <br /><br />
+        <span className="font-bold">Our Expertise :</span><br />
+        With a strong foundation in electrical engineering and system integration, our team delivers customized solutions for diverse power distribution needs. From concept design to factory testing and installation support, CORE4 ENGINEERS Limited provides end-to-end services that guarantee operational safety, durability, and compliance with international standards.       
+         <br /><br />
         <span className="font-bold">Our Product Range Includes:</span>
         <br />
         <span className="font-bold">➣ Compact / Packaged Sub – Stations (Up to 33kV):</span>
-        CSS for up to 2.5MVA, with protection systems and optional metering units.
+        Design, Manufacture, Testing and Commissioning of Compact Sub-Stations (CSS) catered to needs of growing urbanization for capacity up to 2.5MVA. CSS will be included with HT/LT protection system along with LT distribution system connected with Power Quality improvement devices such as APFC, Metering units can also be integrated within CSS as per client’s need.
         <br />
         <span className="font-bold">➣ HT Panels (Up to 33kV):</span>
-        VCB/ACB panels and control panels for high-voltage applications.
+        Indoor and outdoor switchgear panels, VCB/ACB panels, and control panels designed for high-voltage applications, Motor control panels for Conveyor, Pumping and other applications, 
         <br />
         <span className="font-bold">➣ LT Panels (Up to 1.1kV):</span>
-        Main LT panels, PCC, MCC, and boards for power distribution.
+        Main LT panels, power control centers (PCC), Motor Control Centers (MCC), and distribution boards for various load centers.
         <br />
         <span className="font-bold">➣ AMF & Synchronizing Panels:</span>
-        Automated panels for generator synchronization and load sharing.
+        Automated panels designed for seamless generator operation, synchronization, and load sharing. Multiple DG installations and captive power generation units require Synchronizing panels with synchronising between Solar PV, DG and renewable sources. 
         <br />
         <span className="font-bold">➣ Capacitor Panels & APFC Panels:</span>
-        Intelligent PF correction panels for energy efficiency.
+        Intelligent power factor (PF) correction panels to optimize energy efficiency and reduce utility costs. Power installations require improve PF corrections for savings power loss, equipment durability and improved operational efficiency. 
         <br />
         <span className="font-bold">➣ Power Quality Restorer Panels:</span>
-        Power quality improvement devices for voltage and harmonic reliability.
+        A power quality restorer (PQR) is a device that improves the reliability and quality of electricity by mitigating problems like voltage sags, swells, and harmonic distortions. It works by dynamically compensating for power issues, often using power electronics like IGBTs, to ensure stable voltage and power factor, protect sensitive equipment, and meet grid code requirements.
         <br />
         <span className="font-bold">➣ Feeder Pillars & Metering Panels:</span>
-        Weatherproof metering and distribution; supports IoT systems.
+        Compact and weatherproof designs for outdoor electrical distribution and monitoring. IOT based metering panel can be installed for Group housing and Apartment buildings for efficient Energy Billing and Monitoring system. 
         <br />
         <span className="font-bold">➣ PLC & Automation Panels:</span>
-        Industrial process management and smart power solutions.
+        Control and automation solutions for industrial process management and smart power systems. Automation panels have wide range of applications from Pumping installations, DG synchronous panels, Control and Relay Panels, Battery storage systems..Etc
         <br /><br />
         <span className="font-bold">Quality and Standards</span><br />
-        All panels are designed and manufactured in compliance with IEC, IS, and relevant utility standards.<br /><br />
+        All panels are designed and manufactured in compliance with IEC, IS, and relevant utility standards, CPRI, BIS, ensuring electrical safety, robustness, and long operational life. Each panel undergoes rigorous testing procedures, including routine, type, and functional tests, prior to dispatch.<br /><br />
         <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
-        ➣ In-house design, manufacturing and testing.<br />
+        ➣ Customized solutions for diverse industrial, commercial, and utility applications.<br />
         ➣ Customized industrial, commercial and utility solutions.<br />
-        ➣ Premium components and compliance with safety standards.<br />
-        ➣ Timely delivery with after-sales support.<br /><br />
+        ➣ Use of premium components from reputed manufacturers.<br />
+        ➣ Adherence to international safety and quality standards.<br />
+        ➣ Timely delivery and dedicated after-sales support.<br /><br />
         At CORE4 ENGINEERS Limited, we are committed to powering progress through innovation,
         precision engineering, and uncompromising quality. Our HT and LT panels are not just
         products — they are reliable power solutions engineered to perform in demanding
@@ -299,12 +288,14 @@ const services = [
   },
   {
     title: "PMC (Project Management Consultancy)",
-    preview: `Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects..`,
+    preview: `At CORE4 Engineers Limited, our Project Management Consultancy (PMC) services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed on time, within budget, and with uncompromised quality.`,
     description: (
       <>
-        Professional project planning, DPR assistance, execution monitoring, budgeting, costing, documentation (MIS, progress reports) and quality/safety oversight for infrastructure and industrial projects.
+        At CORE4 Engineers Limited, our Project Management Consultancy (PMC) services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed on time, within budget, and with uncompromised quality.
         <br /><br />
-        
+        <span className="font-bold">Our Expertise</span>
+        <br />
+        At CORE4 Engineers Limited, we deliver multi-disciplinary engineering solutions with a strong focus on quality, safety, technical precision, and timely execution. Our expertise covers the complete project lifecycle—from planning and design to installation, testing, commissioning, and long-term support.<br /><br />
         <span className="font-bold">Our PMC Services Include :</span>
         <br />
         <span className="font-bold">➣Project Planning & Scheduling:</span><br />
@@ -343,7 +334,8 @@ const services = [
         ➣ Transparent coordination with contractors, OEMs, and clients, ensuring smooth communication and timely closure of activities.<br />
         ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br />
         ➣ Cost and time optimization approach, reducing delays and avoiding rework through proactive planning and technical review.<br />
-        ➣ Strict adherence to safety standards, QA/QC procedures, statutory norms, and industry best practices.<br /> <br />
+        ➣ Dedicated on-site and off-site PMC teams for supervision, design vetting, documentation, and handover support.<br /> <br />
+        
          At CORE4 ENGINEERS Limited, our PMC services ensure your project is executed with precision, quality, and complete transparency—delivering the results you expect, within the timelines you commit.
       </>
     ),
@@ -469,7 +461,7 @@ const ServicePage = () => {
                 background: "transparent",
               }}
             >
-              <span className="text-gray-600 text-lg close-icon">✕</span>
+              <span className="text-gray-600 text-2xl close-icon">X</span>
             </button>
 
             <style>{`
@@ -506,7 +498,7 @@ const ServicePage = () => {
               <div className="flex items-start justify-between">
                 <h3 className="text-2xl font-bold">{selected.title}</h3>
               </div>
-              <div className="mt-4 text-gray-700 leading-relaxed">
+              <div className="mt-4 text-gray-700 leading-relaxed text-justify whitespace-pre-line space-y-3">
                 {selected.description}
               </div>
 

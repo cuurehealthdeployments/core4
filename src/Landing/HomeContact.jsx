@@ -105,7 +105,7 @@ const ContactSection = () => {
                 <Phone className="w-5 h-5 mr-2" /> +91 08214 507882 / +91 73492 80036
               </li>
               <li className="flex items-center justify-center sm:justify-start">
-                <Mail className="w-5 h-5 mr-2" /> core4engineersltd@gmail.com
+                <Mail className="w-5 h-5 mr-2" /> info@core4grp.com
               </li>
               
             </ul>
@@ -152,6 +152,15 @@ const ContactSection = () => {
               <p className="text-gray-600 mt-1">
                 #7/103 Rajendraprasad, 3rd Cross Street, Nagamalai 
                 Pudupudukkottai, Madurai — 625019
+              </p>
+            </li>
+
+             <li>
+              <h4 className="text-lg font-bold text-black-700">
+                Branch Office – Odisha 
+              </h4>
+              <p className="text-gray-600 mt-1">
+                BSNL Backside, Ramchandrapur Bazaar, Jethani, Odisha – 752050.
               </p>
             </li>
           </ul>

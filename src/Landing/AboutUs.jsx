@@ -90,20 +90,20 @@ const AboutSection = () => {
             Welcome to Core4 Engineers
           </h3>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-2 text-center md:text-left">
-            Core4 Engineers Limited - Engineering The Future
+            Core4 Engineers Limited
           </h1>
           <div className="mt-6 flex flex-wrap justify-center md:justify-start space-x-4 pb-2">
             {Object.keys(content).map((tab) => (
-              <span
-                key={tab}
-                className={`relative font-semibold cursor-pointer pb-2 ${
-                  activeTab === tab ? "text-black border-b-2 border-green-500" : "text-gray-500"
-                }`}
-                onClick={() => setActiveTab(tab)}
-              >
-                {tab}
-              </span>
-            ))}
+            <span
+              key={tab}
+              className={`relative font-semibold cursor-pointer pb-2 ${
+                activeTab === tab ? "text-black border-b-2 border-green-500" : "text-gray-500"
+              }`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab === "AboutUs" ? "About Us" : tab}
+            </span>
+          ))}
           </div>
           <div className="mt-4 text-gray-700 text-justify">
             <AboutSection />
@@ -139,7 +139,7 @@ const AboutSection = () => {
           <div className="order-2 md:order-1">
             <div className="relative text-center">
               <img
-                src="/images/2.jpg"
+                src="/images/mission.jpg"
                 alt="Our Mission"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -148,7 +148,7 @@ const AboutSection = () => {
           <div className="order-1 md:order-2">
             <div className="text-center md:text-left mb-4">
               <h2 className="text-2xl md:text-3xl font-bold inline-block">
-                Our Vision
+                Our Mission
               </h2>
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
@@ -167,7 +167,7 @@ const AboutSection = () => {
           <div>
             <div className="text-center md:text-left mb-4">
               <h2 className="text-2xl md:text-3xl font-bold inline-block">
-                Our Mission
+                Our Vision
               </h2>
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
@@ -183,7 +183,7 @@ const AboutSection = () => {
           </div>
           <div className="relative text-center">
             <img
-              src="/images/1.jpg"
+              src="/images/projects/PJ6.1.png"
               alt="Our Vision"
               className="w-full rounded-lg shadow-lg"
             />
