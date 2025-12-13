@@ -162,7 +162,7 @@ const Accordiona = () => {
   const accordions = [
     {
       id: 1,
-      title: "Railway Electrification Projects",
+      title: "Railway Electrification & Infrastructure Projects.",
       image: "/images/projects/PJ1.1.png",
       subItems: [
         {
@@ -199,7 +199,7 @@ const Accordiona = () => {
     },
     {
       id: 2,
-      title: "Water & Wastewater Projects (WTP/STP/ETP)",
+      title: "Water and Wastewater Treatment Projects.",
       image: "/images/projects/PJ3.1.png",
       subItems: [
         {
@@ -231,7 +231,7 @@ const Accordiona = () => {
     },
     {
       id: 3,
-      title: "EHV Transmission and Distribution Systems Projects",
+      title: "EHV Transmission and Distribution Systems Projects.",
       image: "/images/projects/PJ2.1.png",
       subItems: [
         {
@@ -241,12 +241,12 @@ const Accordiona = () => {
         },
         {
           name: "HT/LT overhead line construction",
-          image: "/images/projects/PJ2.3.png",
+          image: "/images/projects/PJ2.3.jpg",
           description: `Overhead line construction plays a vital role in extending power supply to remote, rural, and industrial areas. CORE4 Engineers undertakes HT (High Tension) and LT (Low Tension) overhead line works including pole erection, conductor stringing, insulator installation, earthing, stay wire fixing, and line tensioning. Our teams ensure proper clearances, mechanical strength, and safety compliance as per electrical standards. These overhead networks improve supply reach, enhance distribution capability, and support long-term grid stability.`
         },
         {
           name: "HT/LT underground cable laying",
-          image: "/images/projects/PJ2.4.jpg",
+          image: "/images/projects/PJ2.4.png",
           description: `Underground cabling systems offer safer, more reliable, and aesthetically better alternatives to overhead lines. CORE4 Engineers specializes in HT/LT underground cable trenching, ducting, cable pulling, jointing, termination, and route marking. We follow advanced installation practices to protect cables from moisture, soil conditions, and mechanical stress. Our underground cable projects reduce outages, enhance network safety, and are ideal for urban, industrial, and high-density infrastructure.`
         },
         {
@@ -263,7 +263,7 @@ const Accordiona = () => {
     },
     {
       id: 8,
-      title: "Manufacturing of HT / LT Distribution Panels Projects",
+      title: "Manufacturing of HT / LT Distribution Panels Projects.",
       image: "/images/projects/PJ8.3.png",
       subItems: [
         {
@@ -300,7 +300,7 @@ const Accordiona = () => {
     },
     {
       id: 7,
-      title: "Automation and SCADA Systems Projects",
+      title: "Automation and SCADA Systems Projects.",
       image: "/images/projects/PJ7.4.png",
       subItems: [
         {

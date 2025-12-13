@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Investors = () => {
   const items = [
     { label: "Board Of Directors", path: "/management-team", icon: "/images/investors icon/iv1.png" },
-    { label: "Annual Returns & Financial Reports", path: "/investors/annual-returns", icon: "/images/investors icon/iv2.png" },
-    { label: "Corporate Oversight", path: "/investors/corporate-oversight", icon: "/images/investors icon/iv3.png" },
+    { label: "Annual Returns & Financial Reports", path: "/reports", icon: "/images/investors icon/iv2.png" },
+    { label: "Corporate Oversight", path: "/corporate-oversight", icon: "/images/investors icon/iv3.png" },
     { label: "Corporate Updates", path: "/investors/corporate-updates", icon: "/images/investors icon/iv4.png" },
     { label: "Investor Concerns", path: "/investors/investor-concerns", icon: "/images/investors icon/iv5.png" },
     { label: "IPO", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },

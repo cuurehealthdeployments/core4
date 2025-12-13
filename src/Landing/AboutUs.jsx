@@ -172,8 +172,8 @@ const AboutSection = () => {
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
             <p className="text-gray-700 text-justify">
-              To provide reliable, efficient, and high-quality engineering solutions that deliver measurable value to our clients. 
-              We aim to execute every project with precision, safety, and integrity while continuously improving through innovation and advanced technology.<br /> <br />
+              To be a leading engineering firm recognized for excellence, innovation, and integrity in every project we undertake.
+              <br /> <br />
               <span className="font-bold">Our Core Values :-</span><br />
               <span className="font-bold">➤ Commitment – </span>Dedicated to delivering excellence in every detail.<br />
               <span className="font-bold">➤Collaboration – </span>Building lasting partnerships through teamwork and transparency.<br />

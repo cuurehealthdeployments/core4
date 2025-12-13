@@ -168,8 +168,9 @@ const ContactSection = () => {
 
       </div>
         {/* Contact Form - Responsive Positioning */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:max-w-md mx-auto">
-          <h3 className="text-xl font-bold text-gray-900">Connect with Us</h3>
+        <div className="min-h-screen flex items-center justify-center">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:max-w-md mx-auto ">
+          <h3 className="text-xl font-bold text-gray-900 ">Connect with Us</h3>
           <p className="text-gray-600 mt-2">Stay connected and join our infrastructure empowerment journey.</p>
           <form className="mt-4">
             <input type="text" placeholder="Name" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
@@ -180,6 +181,7 @@ const ContactSection = () => {
               Send Message
             </button>
           </form>
+        </div>
         </div>
       </div>
     </section>

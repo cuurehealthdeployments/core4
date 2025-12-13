@@ -108,7 +108,7 @@ const services = [
         <br />
         <span className="font-bold">➣ Operation & Maintenance Support:</span>
         <br />
-        Long-term operational services, performance monitoring, and capacity-building.
+        Long-term operational services, performance monitoring, and capacity-building programs for treatment facilities.
         <br /><br />
         <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
         ➣ Proven experience in Designing and Executing Treatment facilities that meet local and international standards.<br />
@@ -205,7 +205,7 @@ const services = [
         <span className="font-bold">Quality and Standards</span><br />
         All panels are designed and manufactured in compliance with IEC, IS, and relevant utility standards, CPRI, BIS, ensuring electrical safety, robustness, and long operational life. Each panel undergoes rigorous testing procedures, including routine, type, and functional tests, prior to dispatch.<br /><br />
         <span className="font-bold">Why Choose CORE4 ENGINEERS Limited?</span><br />
-        ➣ Customized solutions for diverse industrial, commercial, and utility applications.<br />
+        ➣ Comprehensive in-house design and manufacturing capabilities.<br />
         ➣ Customized industrial, commercial and utility solutions.<br />
         ➣ Use of premium components from reputed manufacturers.<br />
         ➣ Adherence to international safety and quality standards.<br />

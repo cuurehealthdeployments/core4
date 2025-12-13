@@ -9,6 +9,8 @@ import Investors from "./pages/Investors";
 import CSR from "./pages/CSR";
 import Contact from "./pages/Contact";
 import IPO from "./pages/IPO";
+import Reports from "./pages/Reports";
+import CorporateOversights from "./pages/CorporateOversights";
 import PoliciesPage from "./pages/Policies";
 import Updates from "./pages/Updates";
 import ProjectsPage from "./pages/Projects";
@@ -36,6 +38,8 @@ const App = () => {
             <Route path="/investors/csr" element={<CSR />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/investors/IPO" element={<IPO />} />
+            <Route path="/reports" element={<Reports />} />
+            <Route path="/corporate-oversight" element={<CorporateOversights />} />
             <Route path="/investors/polices" element={<PoliciesPage/>} />
             <Route path="/investors/latestupdates" element={<Updates/>} />
             <Route path="/projects" element={<ProjectsPage/>} />
