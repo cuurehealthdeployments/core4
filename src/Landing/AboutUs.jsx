@@ -7,7 +7,7 @@ const AboutUs = () => {
   AboutUs: {
     shortText: (
       <>
-        <span className="font-bold">CORE4 ENGINEERS Limited </span>
+        <strong>CORE4 ENGINEERS Limited </strong>
         is a multidisciplinary Engineering, Procurement, Construction,
         and Commissioning (EPCC) company founded in the year 2014, with commitment to deliver
         innovative, sustainable, and high-quality solutions across a wide range of industries such as
@@ -23,7 +23,7 @@ const AboutUs = () => {
 
     fullText: (
       <>
-        <span className="font-bold">CORE4 ENGINEERS Limited </span>
+        <strong>CORE4 ENGINEERS Limited </strong>
         is a multidisciplinary Engineering, Procurement, Construction,
         and Commissioning (EPCC) company founded in the year 2014, with commitment to deliver
         innovative, sustainable, and high-quality solutions across a wide range of industries such as
@@ -35,8 +35,8 @@ const AboutUs = () => {
         economic viability.
         <br /><br />
 
-        At <span className="font-bold">CORE4,</span> we believe in the strength of our four core values
-        <span className="font-bold"> — Commitment, Collaboration, Competence, and Creativity — </span>
+        At <strong>CORE4,</strong> we believe in the strength of our four core values
+        <strong> — Commitment, Collaboration, Competence, and Creativity — </strong>
         which drive every aspect of our work. From concept to completion, we work closely with
         clients to ensure projects are executed efficiently, safely, and sustainably.
         <br /><br />
@@ -45,7 +45,7 @@ const AboutUs = () => {
         of professional expertise and cutting-edge technology to deliver results that exceed
         expectations. Whether it’s Railway Infrastructure development, Industrial Projects, Power
         Projects, or specialized engineering services,
-        <span className="font-bold"> CORE4 ENGINEERS Limited </span>
+        <strong> CORE4 ENGINEERS Limited </strong>
         is your trusted partner for reliable, innovative, and cost-effective engineering solutions.
         <br /><br />
 
@@ -174,11 +174,11 @@ const AboutSection = () => {
             <p className="text-gray-700 text-justify">
               To be a leading engineering firm recognized for excellence, innovation, and integrity in every project we undertake.
               <br /> <br />
-              <span className="font-bold">Our Core Values :-</span><br />
-              <span className="font-bold">➤ Commitment – </span>Dedicated to delivering excellence in every detail.<br />
-              <span className="font-bold">➤Collaboration – </span>Building lasting partnerships through teamwork and transparency.<br />
-              <span className="font-bold">➤ Competence – </span>Combining technical expertise with continuous learning.<br />
-              <span className="font-bold">➤ Creativity – </span>Driving innovation to meet complex challenges.            
+              <strong>Our Core Values :-</strong><br />
+              <strong>➤ Commitment – </strong>Dedicated to delivering excellence in every detail.<br />
+              <strong>➤Collaboration – </strong>Building lasting partnerships through teamwork and transparency.<br />
+              <strong>➤ Competence – </strong>Combining technical expertise with continuous learning.<br />
+              <strong>➤ Creativity – </strong>Driving innovation to meet complex challenges.            
             </p>
           </div>
           <div className="relative text-center">
