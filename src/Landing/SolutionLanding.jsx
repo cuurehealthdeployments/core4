@@ -55,22 +55,36 @@ function Pane({ color, title, description, img, isActive, onClick, path }) {
 
   return (
     <div
-      className={`cursor-pointer duration-700 ease-in-out flex-grow m-1 min-h-[120px] sm:min-h-[600px] overflow-hidden relative rounded-lg transition-all ${
-        isActive ? "flex-grow-[10] max-w-full h-[250px] sm:h-full" : "max-w-full sm:max-w-[10%] h-[100px] sm:h-auto"
-      }`}
+      className={`cursor-pointer duration-300 ease-in-out flex-grow m-1 min-h-[120px] sm:min-h-[600px] overflow-hidden relative rounded-lg
+        ${
+          isActive
+            ? "flex-grow-[10] max-w-full h-[250px] sm:h-full"
+            : "max-w-full sm:max-w-[10%] h-[100px] sm:h-auto"
+        }
+      `}
       onClick={onClick}
+      onMouseEnter={(e) => {
+        if (!isActive) {
+          e.currentTarget.style.backgroundColor = "#2b4dc0ff"; // hover color for inactive
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (!isActive) {
+          e.currentTarget.style.backgroundColor = color; // restore original color
+        }
+      }}
       style={{
-        background: isActive 
+        background: isActive
           ? `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${img}) center/cover no-repeat`
-          : color, 
+          : color,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
         position: "relative",
-        transition: "background 0.5s ease-in-out",
       }}
     >
+
       {/* Lightened Overlay for better visibility */}
       {isActive && <div className="absolute inset-0 bg-black bg-opacity-30"></div>}
 

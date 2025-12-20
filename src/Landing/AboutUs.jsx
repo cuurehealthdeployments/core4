@@ -64,7 +64,7 @@ const AboutSection = () => {
 
   return (
     <div>
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-lg text-gray-700 leading-relaxed">
         {expanded ? content.AboutUs.fullText : content.AboutUs.shortText}
 
         <span
@@ -83,28 +83,19 @@ const AboutSection = () => {
   return (
     <section className="px-4 py-12 bg-gray-100 md:px-8 lg:px-16">
       {/* Main About Us Section */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
+      <div data-aos="fade-up" data-aos-duration="1000" className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
         {/* Text Content */}
         <div>
-          <h3 className="text-green-600 font-semibold text-center md:text-left">
-            Welcome to Core4 Engineers
-          </h3>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-2 text-center md:text-left">
-            Core4 Engineers Limited
+            CORE4 ENGINEERS LIMITED
           </h1>
-          <div className="mt-6 flex flex-wrap justify-center md:justify-start space-x-4 pb-2">
-            {Object.keys(content).map((tab) => (
-            <span
-              key={tab}
-              className={`relative font-semibold cursor-pointer pb-2 ${
-                activeTab === tab ? "text-black border-b-2 border-green-500" : "text-gray-500"
-              }`}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab === "AboutUs" ? "About Us" : tab}
-            </span>
-          ))}
+          <div className="text-center md:text-left mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              About Us
+            </h2>
+            <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
           </div>
+
           <div className="mt-4 text-gray-700 text-justify">
             <AboutSection />
           </div>
@@ -134,7 +125,7 @@ const AboutSection = () => {
       </div>
 
       {/* Our Vision Section */}
-      <div className="max-w-6xl mx-auto">
+      <div data-aos="fade-up" data-aos-duration="2000"className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="relative text-center">
@@ -152,7 +143,7 @@ const AboutSection = () => {
               </h2>
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
-            <p className="text-gray-700 text-justify">
+            <p className="text-lg text-gray-700 text-justify">
               To deliver high-quality, sustainable, and value-driven engineering solutions that meet the
               evolving needs of our clients and communities.
             </p>
@@ -162,7 +153,7 @@ const AboutSection = () => {
       
 
       {/* Our Mission Section */}
-      <div className="max-w-6xl mx-auto mb-12">
+      <div data-aos="fade-up" data-aos-duration="3000"className="max-w-6xl mx-auto mb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <div className="text-center md:text-left mb-4">
@@ -171,7 +162,7 @@ const AboutSection = () => {
               </h2>
               <div className="w-16 h-0.5 bg-green-500 mx-auto md:mx-0 mt-2"></div>
             </div>
-            <p className="text-gray-700 text-justify">
+            <p className="text-lg text-gray-700 text-justify">
               To be a leading engineering firm recognized for excellence, innovation, and integrity in every project we undertake.
               <br /> <br />
               <strong>Our Core Values :-</strong><br />

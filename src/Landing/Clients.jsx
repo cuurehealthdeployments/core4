@@ -8,7 +8,8 @@ export default function OurClients() {
       { name: "Amazon", logo: "/images/C6.png" },
       { name: "HCLTech", logo: "/images/c13.png" },
       { name: "Infosys", logo: "/images/c12.png" },
-      { name: "Infosys", logo: "/images/C7.png" }
+      { name: "Infosys", logo: "/images/C7.png" },
+      { name: "Indian oil", logo: "/images/C10.jpg" }
     ];
   
     return (

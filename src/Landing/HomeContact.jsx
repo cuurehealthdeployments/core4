@@ -112,76 +112,76 @@ const ContactSection = () => {
           </div>
           {/* Additional Address Details */}
 
-        <div className="mt-8">
-          <h3 className="text-xl font-bold text-blue-700">We are placed at :</h3>
+          <div className="mt-8">
+            <h3 className="text-xl font-bold text-blue-700">We are placed at :</h3>
 
-          <ul className="list-disc ml-6 mt-3 space-y-4">
-            <li>
-              <h4 className="text-lg font-bold text-black-700">
-                Head / Registered Office (Kuvempunagar, Mysore)
-              </h4>
-              <p className="text-gray-600 mt-1">
-                No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra  
-                (Near New Law Court), K-Block, Kuvempunagar, Mysore — 570023.
-              </p>
-            </li>
+            <ul className="list-disc ml-6 mt-3 space-y-4">
+              <li>
+                <h4 className="text-lg font-bold text-black-700">
+                  Head / Registered Office (Kuvempunagar, Mysore)
+                </h4>
+                <p className="text-gray-600 mt-1">
+                  No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra  
+                  (Near New Law Court), K-Block, Kuvempunagar, Mysore — 570023.
+                </p>
+              </li>
 
-            <li>
-              <h4 className="text-lg font-bold text-black-700">
-                Branch Office – Rajajinagar, Bengaluru
-              </h4>
-              <p className="text-gray-600 mt-1">
-                392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar,  
-                Bengaluru, Karnataka 560010
-              </p>
-            </li>
+              <li>
+                <h4 className="text-lg font-bold text-black-700">
+                  Branch Office – Rajajinagar, Bengaluru
+                </h4>
+                <p className="text-gray-600 mt-1">
+                  392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar,  
+                  Bengaluru, Karnataka 560010
+                </p>
+              </li>
 
-            <li>
-              <h4 className="text-lg font-bold text-black-700">
-                Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)
-              </h4>
-              <p className="text-gray-600 mt-1">
-                Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
-              </p>
-            </li>
+              <li>
+                <h4 className="text-lg font-bold text-black-700">
+                  Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)
+                </h4>
+                <p className="text-gray-600 mt-1">
+                  Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
+                </p>
+              </li>
 
-            <li>
-              <h4 className="text-lg font-bold text-black-700">
-                Branch Office — Madurai (Tamil Nadu)
-              </h4>
-              <p className="text-gray-600 mt-1">
-                #7/103 Rajendraprasad, 3rd Cross Street, Nagamalai 
-                Pudupudukkottai, Madurai — 625019
-              </p>
-            </li>
+              <li>
+                <h4 className="text-lg font-bold text-black-700">
+                  Branch Office — Madurai (Tamil Nadu)
+                </h4>
+                <p className="text-gray-600 mt-1">
+                  #7/103 Rajendraprasad, 3rd Cross Street, Nagamalai 
+                  Pudupudukkottai, Madurai — 625019
+                </p>
+              </li>
 
-             <li>
-              <h4 className="text-lg font-bold text-black-700">
-                Branch Office – Odisha 
-              </h4>
-              <p className="text-gray-600 mt-1">
-                BSNL Backside, Ramchandrapur Bazaar, Jethani, Odisha – 752050.
-              </p>
-            </li>
-          </ul>
+              <li>
+                <h4 className="text-lg font-bold text-black-700">
+                  Branch Office – Odisha 
+                </h4>
+                <p className="text-gray-600 mt-1">
+                  BSNL Backside, Ramchandrapur Bazaar, Jethani, Odisha – 752050.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-
-      </div>
+      
         {/* Contact Form - Responsive Positioning */}
-        <div className="min-h-screen flex items-center justify-center">
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:max-w-md mx-auto ">
-          <h3 className="text-xl font-bold text-gray-900 ">Connect with Us</h3>
-          <p className="text-gray-600 mt-2">Stay connected and join our infrastructure empowerment journey.</p>
-          <form className="mt-4">
-            <input type="text" placeholder="Name" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-            <input type="email" placeholder="Email" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-            <input type="tel" placeholder="Mobile No" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-            <textarea placeholder="Message" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
-            <button type="submit" className="bg-blue-600 text-white p-2 w-full rounded hover:bg-blue-700 transition">
-              Send Message
-            </button>
-          </form>
-        </div>
+        <div className="flex items-center justify-center">
+          <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:max-w-md mx-auto ">
+            <h3 className="text-xl font-bold text-gray-900 ">Connect with Us</h3>
+            <p className="text-gray-600 mt-2">Stay connected and join our infrastructure empowerment journey.</p>
+            <form className="mt-4">
+              <input type="text" placeholder="Name" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+              <input type="email" placeholder="Email" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+              <input type="tel" placeholder="Mobile No" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+              <textarea placeholder="Message" className="border p-2 w-full mb-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+              <button type="submit" className="bg-blue-600 text-white p-2 w-full rounded hover:bg-blue-700 transition">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

@@ -162,7 +162,7 @@ const Accordiona = () => {
   const accordions = [
     {
       id: 1,
-      title: "Railway Electrification & Infrastructure Projects.",
+      title: "Railway Infra & Electrification Projects.",
       image: "/images/projects/PJ1.1.png",
       subItems: [
         {

@@ -3,14 +3,29 @@ import { Link } from "react-router-dom";
 
 const Investors = () => {
   const items = [
+    { label: "Details of business", path: "/investors/material-creditors", icon: "/images/investors icon/iv8.png" },
+    { label: "List of KMP", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
     { label: "Board Of Directors", path: "/management-team", icon: "/images/investors icon/iv1.png" },
-    { label: "Annual Returns & Financial Reports", path: "/reports", icon: "/images/investors icon/iv2.png" },
-    { label: "Corporate Oversight", path: "/corporate-oversight", icon: "/images/investors icon/iv3.png" },
-    { label: "Corporate Updates", path: "/investors/corporate-updates", icon: "/images/investors icon/iv4.png" },
-    { label: "Investor Concerns", path: "/investors/investor-concerns", icon: "/images/investors icon/iv5.png" },
+    { label: "Share Holders Documents", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Board commities", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Financial results", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Share holding patterns", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Board meeting notice and outcome", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Subsidary Financials", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Associate finincials", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
+    { label: "Corporate Policies", path: "/corporate-oversight", icon: "/images/investors icon/iv3.png" },
+    { label: "Annual Report ", path: "/reports", icon: "/images/investors icon/iv2.png" },
     { label: "IPO", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
-    { label: "Material Contracts", path: "/investors/material-contracts", icon: "/images/investors icon/iv7.png" },
-    { label: "Material Creditors", path: "/investors/material-creditors", icon: "/images/investors icon/iv8.png" },
+    { label: "annual returns", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "news and information", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "corporate announcements", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "corporate information", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "AGM notice", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "Material creditors", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "Material contracts", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "Material documents", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    { label: "secretiriol componets report", path: "/investors/ipo", icon: "/images/investors icon/iv6.png" },
+    
   ];
 
   return (

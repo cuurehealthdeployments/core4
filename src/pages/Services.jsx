@@ -12,7 +12,7 @@ import service6 from "/images/services/SR6.jpg";
 
 const services = [
   {
-    title: "Railway Infrastructure",
+    title: "Railway Infra and Electrification",
     preview: ( <> At <b>CORE4 ENGINEERS Limited</b>, we specialize in delivering comprehensive
         engineering solutions for the <b>railway infrastructure</b> sector, combining innovation,
         technical excellence, and safety-driven design. Our dedicated team of railway

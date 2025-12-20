@@ -15,7 +15,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="absolute inset-0 w-full h-full object-contain"
+        className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="images\Hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -23,8 +23,8 @@ const Hero = () => {
 
       {/* Overlay Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white text-center px-4">
-        <h1 data-aos="fade-up" className="text-5xl md:text-7xl font-bold">TO SECURE A SUSTAINABLE FUTURE</h1>
-        <h2 data-aos="fade-up" className="text-4xl md:text-6xl mt-6">CORE4 ENGINEER'S VISION</h2>
+        <h1 data-aos="fade-up" data-aos-duration="2000" className="text-5xl md:text-7xl font-bold">TO SECURE A SUSTAINABLE FUTURE</h1>
+        <h2 data-aos="fade-up" data-aos-duration="3000" className="text-4xl md:text-6xl mt-6">CORE4 ENGINEER'S VISION</h2>
       </div>
     </div>
   );

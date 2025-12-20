@@ -46,7 +46,8 @@ import Testimonial from "../Landing/Testimonials";
 import SolutionLanding from "../Landing/SolutionLanding";
 import MarqueeNews from "../Landing/Marquee";
 import LatestUpdates from "../Landing/LatestUpdate";
-import FloatingIcon from "../Landing/floating-energies";
+// import FloatingIcon from "../Landing/floating-energies";
+import WhatsAppFloating from "../Landing/watsapp-floating";
 
 const Home = () => {
   return (
@@ -69,7 +70,8 @@ const Home = () => {
       <OurClients />
       <StatsSection />
       <Testimonial />
-      <FloatingIcon />
+      {/* <FloatingIcon /> */}
+      <WhatsAppFloating />
     </>
   );
 };

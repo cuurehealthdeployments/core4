@@ -42,7 +42,8 @@ export default function Reports() {
             <a
               key={index}
               href={doc.filePath}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center w-full sm:w-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200"
               data-aos="fade-up"
             >
@@ -50,7 +51,6 @@ export default function Reports() {
               <span className="flex-1 text-sm sm:text-base">
                 {doc.title}
               </span>
-              <Download size={20} className="ml-2" />
             </a>
           ))}
         </div>

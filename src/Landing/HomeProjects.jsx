@@ -9,10 +9,9 @@ import img7 from "/images/PO1.jpg";
 import img8 from "/images/PO4.png";
 
 const cards = [
-  { title: "Railway Electrification & Infrastructure ", description: "Railway infrastructure projects involve the construction, maintenance, and modernization of railway networks.", img: img1 },
+  { title: "Railway Infra & Electrification", description: "Railway infrastructure projects involve the construction, maintenance, and modernization of railway networks.", img: img1 },
   { title: "Water & Wastewater Treatment(WTP/STP/ETP)", description: "Water supply projects ensure the availability of clean and safe drinking water to urban and rural areas.", img: img2 },
   { title: "Extra High Tension(EHT)Transmission & Distribution System", description: "Networking and telecom infrastructure projects involve the deployment of fiber optics, 5G towers, and broadband networks.", img: img3 },
-  { title: "Industrial Electrical & Infastructure Works", description: "MPE projects focus on designing and implementing mechanical, plumbing, and electrical systems.", img: img4 },
   { title: "Pre-Engineered Structures", description: "Pre-engineered structures are modular buildings designed for rapid assembly and cost efficiency.", img: img6 },
   { title: "Manufacturing of HT/LT Distribution Panels", description: "Railway electrification projects involve converting diesel-operated railways into electric-powered systems.", img: img7 },
   { title: "Automation & SCADA Systems", description: "SCADA (Supervisory Control and Data Acquisition) and IoT automation projects focus on integrating smart technologies.", img: img8 },
@@ -64,7 +63,7 @@ const HomeProjects = () => {
 
         {/* Right Section - Description */}
         <div className="w-full lg:w-1/2 text-justify">
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-xl">
             At Core4 engineers, we’re dedicated to water management, empowering communities, and preserving the environment. Also, it grows and prospers.
           </p>
         </div>
@@ -84,11 +83,11 @@ const HomeProjects = () => {
 
                 {/* Text Content */}
                 <div className="p-4 flex-grow">
-                  <h3 className="text-lg font-bold">{card.title}</h3>
-                  <p className="text-gray-600 text-sm mt-2">{card.description}</p>
-                  <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 transition">
+                  <h3 className="text-xl font-bold">{card.title}</h3>
+                  <p className="text-gray-600 text-lg mt-2">{card.description}</p>
+                  {/* <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 transition">
                     Read More
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

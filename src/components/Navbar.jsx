@@ -580,40 +580,111 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-md p-2 flex justify-between items-center">
+    <nav className="bg-white shadow-md p-2 flex justify-between items-center sticky top-0 z-50">
       {/* Logo */}
       <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-20 w-42 ml-5" /></Link>
 
       {/* Desktop Navbar */}
       <ul className="hidden lg:flex space-x-12 text-xl items-center">
-        <li><Link to="/" className="hover:text-blue-500">Home</Link></li>
+      <li>
+        <Link
+          to="/"
+          className="px-3 py-2 rounded border border-transparent hover:border-blue-900 hover:text-blue-900 transition"
+        >
+          Home
+        </Link>
+      </li>
 
-
-        <li className="relative" id="about-dropdown">
-          <button className="flex items-center hover:text-blue-500" onClick={(e) => { 
-            e.stopPropagation(); 
+      <li className="relative" id="about-dropdown">
+        <button
+          className="flex items-center px-3 py-2 rounded border border-transparent hover:border-blue-900 hover:text-blue-900 transition"
+          onClick={(e) => {
+            e.stopPropagation();
             setAboutDropdownOpen(!dropdownOpen);
-          }}>
-            About <ChevronDown size={18} className={`ml-1 transition ${aboutDropdownOpen ? "rotate-180" : ""}`} />
-          </button>
-          {aboutDropdownOpen && (
-            <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
-              <li><a href="/" onClick={(e) => handleScroll(e, "about-section")} className="block px-4 py-2 hover:bg-gray-100">About Us</a></li>
-              <li><Link to="/management-team" className="block px-4 py-2 hover:bg-gray-100">Our Team</Link></li>
+          }}
+        >
+          About
+          <ChevronDown
+            size={18}
+            className={`ml-1 transition ${aboutDropdownOpen ? "rotate-180" : ""}`}
+          />
+        </button>
 
-            </ul>
-          )}
-        </li>
-
+        {aboutDropdownOpen && (
+          <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
+            <li>
+              <a
+                href="/"
+                onClick={(e) => handleScroll(e, "about-section")}
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <Link
+                to="/management-team"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Our Team
+              </Link>
+            </li>
+          </ul>
+        )}
+      </li>
 
 
 
         {/* <li><a href="/" onClick={(e) => handleScroll(e, "about-section")} className="hover:text-blue-500">About Us</a></li> */}
         {/* <li><Link to="/management-team" className="hover:text-blue-500">Management Team</Link></li> */}
-        <li><Link to="/projects" className="hover:text-blue-500">Projects</Link></li>
-        <li><Link to="/services" className="hover:text-blue-500">Services</Link></li>
-        <li><Link to="/products" className="hover:text-blue-500">Products</Link></li>
-        <li><Link to="/investors" className="hover:text-blue-500">Investors</Link></li>
+        <li>
+          <Link
+            to="/projects"
+            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+          >
+            Projects
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/services"
+            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+          >
+            Services
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/products"
+            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+          >
+            Products
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/investors"
+            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+          >
+            Investors Info
+          </Link>
+        </li>
+                <li>
+          <a
+            href="https://www.example.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-red-600 text-red-600 px-4 py-2 rounded-md hover:bg-red-600 hover:text-white transition"
+          >
+            CORE4 ENERGY
+          </a>
+        </li>
+
+
+
 
         {/* Investors Dropdown */}
         {/* <li className="relative" id="investors-dropdown">
@@ -638,7 +709,16 @@ const Navbar = () => {
         </li> */}
 
         {/* Contact Us Button */}
-        <li><a href="/" className="bg-blue-600 text-white px-4 py-2 rounded" onClick={(e) => handleScroll(e, "contact-section")}>Contact Us</a></li>
+        <li>
+          <a
+            href="https://www.example.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-blue-900 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+          >
+            Contact Us
+          </a>
+        </li>
       </ul>
 
       {/* Mobile Menu Button */}
