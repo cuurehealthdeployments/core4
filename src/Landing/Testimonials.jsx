@@ -5,33 +5,33 @@ import "aos/dist/aos.css";
 
 const testimonials = [
   {
-    name: "Michael Lee",
+    name: "Ajay Kumar G",
     review:
-      "Exceptional craftsmanship and attention to detail! The team delivered our project on time with outstanding quality.",
+      "We have been working with Core4 engineers Ltd for multiple projects over the years. Their consistency, technical strength, and responsive support make them our preferred electrical contractor.",
     rating: 5,
   },
   {
-    name: "Sarah Johnson",
+    name: "Deepak R",
     review:
-      "Professional, reliable, and highly skilled. Our dream home turned out even better than we imagined!",
+      "We partnered with Core4 engineers Ltd for our electrical installations and commissioning works. Their technical expertise, compliance with standards, and project coordination were excellent. The work was delivered on time and within budget.",
     rating: 5,
   },
   {
-    name: "Emily Thomson",
+    name: "Prashant Kumar",
     review:
-      "From planning to execution, everything was seamless. Highly recommended for any construction needs!",
-    rating: 5,
-  },
-  {
-    name: "John Doe",
-    review:
-      "Great service! The project was completed efficiently and on time. Highly recommend their work!",
+      "Core4 successfully executed our complete electrical scope including HT/LT panels, cabling, and testing. Their end-to-end project management reduced downtime and ensured smooth commissioning.",
     rating: 4,
   },
   {
-    name: "Jane Smith",
+    name: "Prakash Rao",
     review:
-      "Very satisfied with the work. The attention to detail was impressive!",
+      "Their engineers provided practical solutions that improved system efficiency and reduced costs. The team’s approach reflects strong domain knowledge and experience.",
+    rating: 4,
+  },
+  {
+    name: "Cheyesh",
+    review:
+      "From initial discussions to final handover, the team maintained transparency and professionalism. We are extremely satisfied with the outcome.",
     rating: 5,
   },
 ];
@@ -44,25 +44,27 @@ export default function Testimonial() {
   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
 
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a fade effect
+  const container = scrollRef.current;
+  let position = 0;
+  const speed = 0.3; // VERY slow – adjust if needed
 
-    const scrollContainer = scrollRef.current;
-    let scrollSpeed = 1.5; // Adjust speed
+  function scroll() {
+    if (!container) return;
 
-    function startScrolling() {
-      if (scrollContainer) {
-        scrollContainer.scrollLeft += scrollSpeed;
+    position += speed;
+    container.scrollLeft = position;
 
-        // Reset scroll when reaching halfway to create an infinite effect
-        if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
-          scrollContainer.scrollLeft = 0;
-        }
-      }
-      requestAnimationFrame(startScrolling);
+    if (position >= container.scrollWidth / 2) {
+      position = 0;
+      container.scrollLeft = 0;
     }
 
-    startScrolling();
-  }, []);
+    requestAnimationFrame(scroll);
+  }
+
+  scroll();
+}, []);
+
 
   return (
     <div
@@ -70,12 +72,12 @@ export default function Testimonial() {
       className="w-full max-w-6xl mx-auto py-10 text-center overflow-hidden px-4 sm:px-6 md:px-8"
     >
       <h2
-        className="text-xl sm:text-4xl font-bold text-blue-600"
+        className="text-2xl sm:text-4xl font-bold text-blue-600"
         data-aos="fade-up"
       >
         Testimonial
       </h2>
-      <p className="text-gray-600 mt-2 text-sm sm:text-base" data-aos="fade-up">
+      <p className="text-gray-600 mt-2 text-lg sm:text-xl" data-aos="fade-up">
         Building Excellence, One Structure At A Time
       </p>
 
@@ -94,7 +96,7 @@ export default function Testimonial() {
           >
             <div className="flex items-center space-x-3">
               <User className="w-6 h-6 sm:w-8 sm:h-8 text-gray-500" />
-              <h3 className="font-semibold text-sm sm:text-base">
+              <h3 className="font-semibold text-xl sm:text-xl">
                 {testimonial.name}
               </h3>
             </div>
@@ -104,13 +106,13 @@ export default function Testimonial() {
               {Array.from({ length: testimonial.rating }, (_, i) => (
                 <Star
                   key={i}
-                  className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-500 fill-yellow-500"
+                  className="w-5 h-5 sm:w-5 sm:h-5 text-yellow-500 fill-yellow-500"
                 />
               ))}
             </div>
 
             {/* Short Review Inside the Card */}
-            <p className="text-gray-600 mt-2 sm:mt-3 text-xs sm:text-sm leading-relaxed line-clamp-3">
+            <p className="text-gray-600 mt-2 sm:mt-3 text-lg sm:text-lg leading-relaxed line-clamp-3">
               {testimonial.review}
             </p>
           </div>
@@ -130,18 +132,18 @@ export default function Testimonial() {
             >
               <X className="w-6 h-6" />
             </button>
-            <h3 className="text-lg font-semibold">{selectedTestimonial.name}</h3>
+            <h3 className="text-2xl font-semibold">{selectedTestimonial.name}</h3>
 
-            <div className="flex mt-2">
+            <div className="flex justify-center mt-2">
               {Array.from({ length: selectedTestimonial.rating }, (_, i) => (
                 <Star
                   key={i}
-                  className="w-5 h-5 text-yellow-500 fill-yellow-500"
+                  className="w-6 h-6 text-yellow-500 fill-yellow-500"
                 />
               ))}
             </div>
 
-            <p className="text-gray-600 mt-3 text-sm leading-relaxed">
+            <p className="text-gray-600 mt-3 text-lg leading-relaxed">
               {selectedTestimonial.review}
             </p>
           </div>

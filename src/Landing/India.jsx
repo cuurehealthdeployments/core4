@@ -91,7 +91,7 @@ export default function IndiaMap() {
 
       {/* Header */}
       <h2
-        className="text-2xl md:text-3xl font-bold text-red-600 text-center"
+        className="text-2xl md:text-5xl font-bold text-red-600 text-center"
         data-aos="fade-up"
       >
         100+ Projects Across India
@@ -102,7 +102,7 @@ export default function IndiaMap() {
 
         {/* India Map */}
         <div
-          className="relative w-full max-w-xs sm:max-w-md md:w-[500px]"
+          className="relative w-full max-w-xl sm:max-w-2xl md:w-[600px]"
           data-aos="fade-right"
         >
           <img src={mapImage} alt="India Map" className="w-full h-auto" />
@@ -155,7 +155,7 @@ export default function IndiaMap() {
             {projects.map((project, index) => (
               <li
                 key={index}
-                className="flex items-center gap-2 text-sm sm:text-xl cursor-pointer hover:text-red-900"
+                className="flex items-center gap-2 text-sm sm:text-2xl cursor-pointer hover:text-red-900"
                 onMouseEnter={() => {
                   setIsHovering(true);
                   setHoveredProject(project);

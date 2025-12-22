@@ -8,10 +8,10 @@ const WhatsAppFloating = () => {
       rel="noopener noreferrer"
       style={{
         position: "fixed",
-        bottom: "80px",
+        bottom: "120px",
         right: "20px",
-        width: "55px",
-        height: "55px",
+        width: "70px",
+        height: "70px",
         borderRadius: "50%",
         backgroundColor: "#25D366",
         display: "flex",
@@ -31,8 +31,8 @@ const WhatsAppFloating = () => {
         src="/images/whatsapp.png"
         alt="WhatsApp"
         style={{
-          width: "40px",
-          height: "40px",
+          width: "50px",
+          height: "50px",
         }}
       />
     </a>

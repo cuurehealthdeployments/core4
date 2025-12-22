@@ -48,7 +48,7 @@ const Gallery = () => {
         <h2 className="text-4xl font-bold text-gray-900">
           Better Tomorrow for Generations to Come
         </h2>
-        <p className="text-gray-600 mt-2">
+        <p className="text-xl text-gray-600 mt-2">
           Built on trust, engineered with precision — we create infrastructure that enhances lives, 
           connects communities, and strengthens the foundation for tomorrow’s growth.
         </p>

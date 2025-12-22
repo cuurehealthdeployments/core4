@@ -165,11 +165,8 @@ const AboutSection = () => {
             <p className="text-lg text-gray-700 text-justify">
               To be a leading engineering firm recognized for excellence, innovation, and integrity in every project we undertake.
               <br /> <br />
-              <strong>Our Core Values :-</strong><br />
-              <strong>➤ Commitment – </strong>Dedicated to delivering excellence in every detail.<br />
-              <strong>➤Collaboration – </strong>Building lasting partnerships through teamwork and transparency.<br />
-              <strong>➤ Competence – </strong>Combining technical expertise with continuous learning.<br />
-              <strong>➤ Creativity – </strong>Driving innovation to meet complex challenges.            
+              {/* <strong>Our Core Values :-</strong><br /> */}
+              <strong>● Commitment – </strong>Dedicated to delivering excellence in every detail.<br /><strong> ● Collaboration – </strong>Building lasting partnerships through teamwork and transparency.<br /><strong> ● Competence – </strong>Combining technical expertise with continuous learning.<br /><strong> ● Creativity – </strong>Driving innovation to meet complex challenges.            
             </p>
           </div>
           <div className="relative text-center">

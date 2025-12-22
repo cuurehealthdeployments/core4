@@ -31,7 +31,7 @@ export default function PaneContainer() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="antialiased bg-white flex flex-col sm:flex-row justify-center items-center min-h-screen w-full p-2">
+    <div className="antialiased bg-white flex flex-col sm:flex-row justify-center items-center w-full">
       <div className="flex flex-col sm:flex-row flex-grow w-full h-full gap-1 sm:gap-1">
         {panesData.map((pane, index) => (
           <Pane 
@@ -91,17 +91,17 @@ function Pane({ color, title, description, img, isActive, onClick, path }) {
       {/* Centered Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 sm:px-6">
         {/* Title */}
-        <div className={`text-lg sm:text-2xl md:text-2xl mb-2 ${!isActive ? "sm:rotate-90 sm:whitespace-nowrap" : ""}`}>
+        <div className={`text-lg sm:text-2xl md:text-4xl mb-2 ${!isActive ? "sm:rotate-90 sm:whitespace-nowrap" : ""}`}>
           {title}
         </div>
 
         {/* Description */}
-        {isActive && <p className="text-sm sm:text-base md:text-lg max-w-md text-center">{description}</p>}
+        {isActive && <p className="text-lg sm:text-base md:text-2xl max-w-md text-center">{description}</p>}
 
         {/* Button */}
         {isActive && (
           <button
-            className="mt-2 bg-white text-black py-2 px-4 rounded-md text-sm sm:text-base hover:bg-gray-200 transition-all"
+            className="mt-2 bg-white text-black py-2 px-4 rounded-md text-lg sm:text-xl hover:bg-gray-200 transition-all"
             onClick={handleExploreMore} // Use the handleExploreMore function
           >
             Explore More

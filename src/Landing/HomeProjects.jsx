@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from "react";
-import img1 from "/images/PO1.jpg";
-import img2 from "/images/g4.jpg";
-import img3 from "/images/P03.png";
-import img4 from "/images/g7.jpg";
-import img5 from "/images/PO6.png";
-import img6 from "/images/G2.jpg";
-import img7 from "/images/PO1.jpg";
-import img8 from "/images/PO4.png";
+import img1 from "/images/HP1.jpeg";
+import img2 from "/images/projects/PJ3.3.png";
+import img3 from "/images/HP3.jpeg";
+import img4 from "/images/HP4.jpg";
+import img5 from "/images/HP5.jpeg";
+import img6 from "/images/HP6.jpeg";
+
 
 const cards = [
   { title: "Railway Infra & Electrification", description: "Railway infrastructure projects involve the construction, maintenance, and modernization of railway networks.", img: img1 },
-  { title: "Water & Wastewater Treatment(WTP/STP/ETP)", description: "Water supply projects ensure the availability of clean and safe drinking water to urban and rural areas.", img: img2 },
+  { title: "Water & Wastewater Management(WTP/STP/ETP)", description: "Water supply projects ensure the availability of clean and safe drinking water to urban and rural areas.", img: img2 },
   { title: "Extra High Tension(EHT)Transmission & Distribution System", description: "Networking and telecom infrastructure projects involve the deployment of fiber optics, 5G towers, and broadband networks.", img: img3 },
-  { title: "Pre-Engineered Structures", description: "Pre-engineered structures are modular buildings designed for rapid assembly and cost efficiency.", img: img6 },
-  { title: "Manufacturing of HT/LT Distribution Panels", description: "Railway electrification projects involve converting diesel-operated railways into electric-powered systems.", img: img7 },
-  { title: "Automation & SCADA Systems", description: "SCADA (Supervisory Control and Data Acquisition) and IoT automation projects focus on integrating smart technologies.", img: img8 },
+  { title: "Pre-Engineered Structures", description: "Pre-engineered structures are modular buildings designed for rapid assembly and cost efficiency.", img: img4 },
+  { title: "Manufacturing of HT/LT Distribution Panels", description: "Railway electrification projects involve converting diesel-operated railways into electric-powered systems.", img: img5 },
+  { title: "Automation & SCADA Systems", description: "SCADA (Supervisory Control and Data Acquisition) and IoT automation projects focus on integrating smart technologies.", img: img6 },
 ];
 
 const HomeProjects = () => {
@@ -64,7 +63,7 @@ const HomeProjects = () => {
         {/* Right Section - Description */}
         <div className="w-full lg:w-1/2 text-justify">
           <p className="text-gray-600 text-xl">
-            At Core4 engineers, we’re dedicated to water management, empowering communities, and preserving the environment. Also, it grows and prospers.
+            At <b>CORE4 ENGINEERS LTD</b>, we’re dedicated to water management, empowering communities, and preserving the environment. Also, it grows and prospers.
           </p>
         </div>
       </div>

@@ -595,7 +595,7 @@ const Navbar = () => {
         </Link>
       </li>
 
-      <li className="relative" id="about-dropdown">
+      {/* <li className="relative" id="about-dropdown">
         <button
           className="flex items-center px-3 py-2 rounded border border-transparent hover:border-blue-900 hover:text-blue-900 transition"
           onClick={(e) => {
@@ -631,8 +631,16 @@ const Navbar = () => {
             </li>
           </ul>
         )}
-      </li>
+      </li> */}
 
+       <li>
+          <Link
+            to="/about"
+            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+          >
+            About Us
+          </Link>
+        </li>
 
 
         {/* <li><a href="/" onClick={(e) => handleScroll(e, "about-section")} className="hover:text-blue-500">About Us</a></li> */}
