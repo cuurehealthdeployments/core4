@@ -6,22 +6,38 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ManagementTeam from "./pages/ManagementTeam";
 import Gallery from "./pages/Gallery";
+
 import Investors from "./pages/Investors";
 import BusinessDetails from "./pages/Investors/BusinessDetails";
 import KMP from "./pages/Investors/KMP";
 import BOD from "./pages/Investors/BOD";
-import BoardCommittee from "./pages/Investors/BoardCommittee";
+import ShareDocs from "./pages/Investors/ShareDocs";
+import FinancialResults from "./pages/Investors/FinancialResults";
+import SharePatterns from "./pages/Investors/SharePatterns";
+import BoardNotice from "./pages/Investors/BoardNotice";
+import SubsidaryFinance from "./pages/Investors/SubsidaryFinance.jsx";
 import CorporatePolicies from "./pages/Investors/CorporatePolicies";
-import CSR from "./pages/CSR";
+import AnnualReports from "./pages/Investors/AnnualReports";
+import IPO from "./pages/Investors/IPO";
+import AssociateFinance from "./pages/Investors/AssociateFinance";
+import BoardCommittee from "./pages/Investors/BoardCommittee";
+import AnnualReturns from "./pages/Investors/AnnualReturns";
+import NewsInfo from "./pages/Investors/NewsInfo";
+import CorporateAnnounce from "./pages/Investors/CorporateAnnounce";
+import CorporateInfo from "./pages/Investors/CorporateInfo";
+import AGM from "./pages/Investors/AGM";
+import MaterialCredit from "./pages/Investors/MaterialCredit";
+import MaterialContract from "./pages/Investors/MaterialContract";
+import MaterialDocs from "./pages/Investors/MaterialDocs";
+import SecretorialReport from "./pages/Investors/SecretorialReport";
+
+
 import Contact from "./pages/Contact";
-import IPO from "./pages/IPO";
-import Reports from "./pages/Reports";
 import PoliciesPage from "./pages/Policies";
 import Updates from "./pages/Updates";
 import ProjectsPage from "./pages/Projects";
 import ServicePage from "./pages/Services";
 import ProductPage from "./pages/Products";
-import CSRSection from "./pages/CSR";
 import MarqueeNews from "./Landing/Marquee";
 import ChatbotScriptsLoader from "./scripts/ChatbotScriptsLoader";
 
@@ -39,22 +55,38 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/management-team" element={<ManagementTeam />} />
             <Route path="/gallery" element={<Gallery />} />
+
             <Route path="/investors" element={<Investors />} />
-            <Route path="/investors/csr" element={<CSR />} />
             <Route path="/business-details" element={<BusinessDetails />} />
-            <Route path="/kmp" element={<KMP />} /> 
+            <Route path="/kmp" element={<KMP />} />
             <Route path="/board-of-directors" element={<BOD />} />
             <Route path="/board-committee" element={<BoardCommittee />} />
-            <Route path="/corporate-oversight" element={<CorporatePolicies />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/share-docs" element={<ShareDocs />} />
+            <Route path="/share-patterns" element={<SharePatterns />} />
+            <Route path="/financial-results" element={<FinancialResults />} />
+            <Route path="/board-notice" element={<BoardNotice />} />
+            <Route path="/subsidary-finance" element={<SubsidaryFinance />} />
+            <Route path="/associate-financials" element={<AssociateFinance />} />
+            <Route path="/corporate-policies" element={<CorporatePolicies />} />
             <Route path="/investors/IPO" element={<IPO />} />
-            <Route path="/reports" element={<Reports />} />
+            <Route path="/reports" element={<AnnualReports />} />
+            <Route path="/annual-returns" element={<AnnualReturns />} />
+            <Route path="/news-information" element={<NewsInfo />} />
+            <Route path="/corporate-announcements" element={<CorporateAnnounce />} />
+            <Route path="/corporate-information" element={<CorporateInfo />} />
+            <Route path="/agm-notice" element={<AGM />} />
+            <Route path="/material-creditors" element={<MaterialCredit />} />
+            <Route path="/material-contracts" element={<MaterialContract />} />
+            <Route path="/material-documents" element={<MaterialDocs />} />
+            <Route path="/secretarial-components-report" element={<SecretorialReport />} />
+
+            
             <Route path="/investors/polices" element={<PoliciesPage/>} />
             <Route path="/investors/latestupdates" element={<Updates/>} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<ProjectsPage/>} />
             <Route path="/services" element={<ServicePage/>} />
             <Route path="/products" element={<ProductPage/>} />
-            <Route path="/investors/csr" element={<CSRSection/>} />
             
           </Routes>
         

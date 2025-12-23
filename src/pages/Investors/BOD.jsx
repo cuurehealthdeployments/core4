@@ -40,10 +40,10 @@ const BoardOfDirectors = () => {
       {/* ===== BLUE BANNER HEADER ===== */}
       <div className="bg-blue-700 text-white py-16">
         <div className="container mx-auto px-6 sm:px-10">
-          <h1 className="text-2xl sm:text-4xl font-bold mb-4">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-4">
             Board of Directors
           </h1>
-          <div className="flex items-center space-x-2 text-sm sm:text-base">
+          <div className="flex items-center space-x-2 text-xl sm:text-2xl">
             <span>Home</span>
             <span>»</span>
             <span>Board of Directors</span>

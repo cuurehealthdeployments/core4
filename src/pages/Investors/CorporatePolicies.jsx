@@ -93,6 +93,9 @@ export default function CorporatePolicies() {
 
       {/* Reports List */}
       <div className="container mx-auto px-6 sm:px-10 py-8">
+        <h2 className="text-5xl font-semibold text-center text-gray-900 mb-8">
+          Corporate Policies
+        </h2>
         <div className="flex flex-col items-start space-y-4">
           {reportDocuments.map((doc, index) => (
             <a

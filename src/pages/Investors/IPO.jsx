@@ -26,17 +26,20 @@ export default function IPO() {
             {/* Header Section */}
             <div className="bg-blue-700 text-white py-16">
                 <div className="container mx-auto px-6 sm:px-10">
-                    <h1 className="text-2xl sm:text-4xl font-bold mb-4">IPO Offer Documents</h1>
+                    <h1 className="text-2xl sm:text-4xl font-bold mb-4">IPO </h1>
                     <div className="flex items-center space-x-2 text-sm sm:text-base">
                         <span>Home</span>
                         <span>»</span>
-                        <span>IPO Offer Documents</span>
+                        <span>IPO</span>
                     </div>
                 </div>
             </div>
 
             {/* Documents Section */}
             <div className="container mx-auto px-6 sm:px-10 py-8">
+                <h2 className="text-5xl font-semibold text-center text-gray-900 mb-8">
+                    IPO Documents
+                </h2>
                 <div className="flex flex-col items-start space-y-4">
                     {ipoDocuments.map((document) => (
                         <a
