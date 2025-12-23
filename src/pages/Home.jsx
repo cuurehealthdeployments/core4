@@ -10,28 +10,8 @@
 // import Testimonial from "../Landing/Testimonials";
 // import SolutionLanding from "../Landing/SolutionLanding";
 
-
-
-// const Home = () =>{
-//     return(
-//         <>
-//             <Hero/>
-//             <AboutUs/>
-//             <IndiaMap/>
-//             <HomeProjects/>
-//             <InfrastructureComponent/>
-//             <SolutionLanding/>
-//             <ContactSection/>
-//             <Gallery/>
-//             <OurClients/>
-//             <StatsSection/>
-//             <Testimonial/>
-//         </>
-//     )
-// }
-
-
-// export default Home;
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import Hero from "../Landing/Hero";
 import AboutUs from "../Landing/AboutUs";
@@ -46,32 +26,48 @@ import Testimonial from "../Landing/Testimonials";
 import SolutionLanding from "../Landing/SolutionLanding";
 import MarqueeNews from "../Landing/Marquee";
 import LatestUpdates from "../Landing/LatestUpdate";
-// import FloatingIcon from "../Landing/floating-energies";
-import WhatsAppFloating from "../Landing/watsapp-floating";
+import WatsAppFloating from "../Landing/watsapp-floating";
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 300);
+      }
+    }
+  }, [location]);
+
   return (
     <>
-     {/* <MarqueeNews/> */}
+      {/* <MarqueeNews /> */}
       <Hero />
-      {/* Add id to AboutUs section */}
+
+      {/* About Section */}
       <div id="about-section">
         <AboutUs />
       </div>
+
       <IndiaMap />
       <HomeProjects />
-      <LatestUpdates/>
+      <LatestUpdates />
       <InfrastructureComponent />
       <SolutionLanding />
-      <div id = "contact-section">
+
+      {/* Contact Section */}
+      <div id="contact-section">
         <ContactSection />
       </div>
+
       <Gallery />
       <OurClients />
       <StatsSection />
       <Testimonial />
-      {/* <FloatingIcon /> */}
-      <WhatsAppFloating />
+      <WatsAppFloating />
     </>
   );
 };

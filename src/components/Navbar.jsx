@@ -595,56 +595,15 @@ const Navbar = () => {
         </Link>
       </li>
 
-      {/* <li className="relative" id="about-dropdown">
-        <button
-          className="flex items-center px-3 py-2 rounded border border-transparent hover:border-blue-900 hover:text-blue-900 transition"
-          onClick={(e) => {
-            e.stopPropagation();
-            setAboutDropdownOpen(!dropdownOpen);
-          }}
+      <li>
+        <a
+          href="/#about-section"
+          className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
         >
-          About
-          <ChevronDown
-            size={18}
-            className={`ml-1 transition ${aboutDropdownOpen ? "rotate-180" : ""}`}
-          />
-        </button>
+          About Us
+        </a>
+      </li>
 
-        {aboutDropdownOpen && (
-          <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
-            <li>
-              <a
-                href="/"
-                onClick={(e) => handleScroll(e, "about-section")}
-                className="block px-4 py-2 hover:bg-gray-100"
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <Link
-                to="/management-team"
-                className="block px-4 py-2 hover:bg-gray-100"
-              >
-                Our Team
-              </Link>
-            </li>
-          </ul>
-        )}
-      </li> */}
-
-       <li>
-          <Link
-            to="/about"
-            className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
-          >
-            About Us
-          </Link>
-        </li>
-
-
-        {/* <li><a href="/" onClick={(e) => handleScroll(e, "about-section")} className="hover:text-blue-500">About Us</a></li> */}
-        {/* <li><Link to="/management-team" className="hover:text-blue-500">Management Team</Link></li> */}
         <li>
           <Link
             to="/projects"
@@ -691,42 +650,15 @@ const Navbar = () => {
           </a>
         </li>
 
-
-
-
-        {/* Investors Dropdown */}
-        {/* <li className="relative" id="investors-dropdown">
-          <button className="flex items-center hover:text-blue-500" onClick={(e) => { 
-            e.stopPropagation(); 
-            setDropdownOpen(!dropdownOpen);
-          }}>
-            Investors <ChevronDown size={18} className={`ml-1 transition ${dropdownOpen ? "rotate-180" : ""}`} />
-          </button>
-          {dropdownOpen && (
-            <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-50">
-              <li><Link to="/investors/polices" className="block px-4 py-2 hover:bg-gray-100">Board Of Directors</Link></li>
-              <li><Link to="/investors/latestupdates" className="block px-4 py-2 hover:bg-gray-100">Annual Returns & Financial Reports</Link></li>
-              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Corporate Oversight</Link></li>
-              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Corporate updates</Link></li>
-              <li><Link to="/investors/csr" className="block px-4 py-2 hover:bg-gray-100">Investor Concerns</Link></li>
-              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">IPO</Link></li>
-              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Material Contracts</Link></li>
-              <li><Link to="/investors/IPO" className="block px-4 py-2 hover:bg-gray-100">Creditors</Link></li>
-            </ul>
-          )}
-        </li> */}
-
         {/* Contact Us Button */}
-        <li>
-          <a
-            href="https://www.example.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-blue-900 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
-          >
-            Contact Us
-          </a>
-        </li>
+      <li>
+        <a
+          href="/#contact-section"
+          className="border border-blue-900 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+        >
+          Contact Us
+        </a>
+      </li>
       </ul>
 
       {/* Mobile Menu Button */}
@@ -744,11 +676,33 @@ const Navbar = () => {
 
         {/* Mobile Nav Links */}
         <li><Link to="/" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Home</Link></li>
-        <li><a href="/" className="block px-6 py-4 font-medium" onClick={(e) => handleScroll(e, "about-section")}>About Us</a></li>
-        <li><Link to="/management-team" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Management Team</Link></li>
+        <li><a href="about-section" className="block px-6 py-4 font-medium" onClick={(e) => handleScroll(e, "about-section")}>About Us</a></li>
         <li><Link to="/projects" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Projects</Link></li>
         <li><Link to="/services" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Services</Link></li>
         <li><Link to="/products" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Products</Link></li>
+        <li><Link to="/investors" className="block px-6 py-4 font-medium" onClick={() => setIsOpen(false)}>Investors Info</Link></li>
+        <li className="px-6 py-4 w-full">
+          <a
+            href="https://www.example.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block border border-red-600 text-red-600 px-4 py-2 rounded-md hover:bg-red-600 hover:text-white transition"
+          >
+            CORE4 ENERGY
+          </a>
+        </li>
+
+        <li className="px-6 py-4 w-full">
+          <a
+            href="/#contact-section"
+            onClick={() => setIsOpen(false)}
+            className="inline-block border border-blue-900 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+          >
+            Contact Us
+          </a>
+        </li>
+
+
 
         {/* Mobile Investors Dropdown */}
         {/* <li>
@@ -766,7 +720,6 @@ const Navbar = () => {
         </li> */}
 
         {/* Contact Us Button in Mobile */}
-        <li><a href="/" className="block bg-blue-600 text-white px-6 py-4 font-medium" onClick={(e) => handleScroll(e, "contact-section")}>Contact Us</a></li>
       </ul>
     </nav>
   );

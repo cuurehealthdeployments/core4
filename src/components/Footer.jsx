@@ -121,11 +121,11 @@ const Footer = () => {
                   Projects
                 </Link>
               </li>
-              <li>
-                <Link to="/about" className="hover:text-slate-500">
-                  About Us
-                </Link>
-              </li>
+             <li>
+              <a href="/#about-section" className="hover:text-slate-500">
+                About Us
+              </a>
+            </li>
               <li>
                 <Link to="/management-team" className="hover:text-slate-500">
                   Our Team
@@ -137,7 +137,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-slate-500">
+                <Link to="/#contact-section" className="hover:text-slate-500">
                   Contact
                 </Link>
               </li>
