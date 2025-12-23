@@ -8,6 +8,15 @@
   scrollbar-width: none;     /* Firefox */
 }
 
+
+/* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
+}
+
+/* Prevent horizontal overflow */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
