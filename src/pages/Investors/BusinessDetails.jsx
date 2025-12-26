@@ -90,7 +90,7 @@ export default function BusinessDetails() {
       <b>Execution Capabilities</b>
     </h2>
     <p className="text-lg leading-relaxed text-justify ">
-      The Company’s execution capabilities encompass:      
+      The Company’s execution capabilities encompass: <br />     
       <b>● In-house Engineering Design:</b> Preparation of detailed drawings, electrical layouts, and system designs.<br />
       <b>● Procurement and Vendor Management:</b> Established relationships with reputed OEMs and material suppliers.<br />
       <b>● Project Management:</b> Use of structured project planning tools and progress monitoring systems for on-time completion.<br />

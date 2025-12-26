@@ -122,11 +122,11 @@ const ContactSection = () => {
                 </h4>
                 <p className="text-lg text-gray-600 mt-1">
                   No. 12, 1st Floor, Near Ramana Maharshi Gyna Kendra  
-                  (Near New Law Court), K-Block, Kuvempunagar, Mysore — 570023.
+                  (Near New Law Court), K-Block, Kuvempunagar, Mysore - 570023.
                 </p>
               </li>
 
-              <li>
+              {/* <li>
                 <h4 className="text-xl font-bold text-black-700">
                   Branch Office – Rajajinagar, Bengaluru
                 </h4>
@@ -134,18 +134,18 @@ const ContactSection = () => {
                   392, 57th Cross Rd, 1st Block, 3rd Block, Rajajinagar,  
                   Bengaluru, Karnataka 560010
                 </p>
-              </li>
+              </li> */}
 
               <li>
                 <h4 className="text-xl font-bold text-black-700">
                   Factory / Manufacturing Unit (Hootagalli Industrial Area, Mysore)
                 </h4>
                 <p className="text-lg text-gray-600 mt-1">
-                  Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore.
+                  Plot No. 77-N, Hootagalli Industrial Area, Koorgalli, Mysore - 570018.
                 </p>
               </li>
 
-              <li>
+              {/* <li>
                 <h4 className="text-xl font-bold text-black-700">
                   Branch Office — Madurai (Tamil Nadu)
                 </h4>
@@ -153,16 +153,17 @@ const ContactSection = () => {
                   #7/103 Rajendraprasad, 3rd Cross Street, Nagamalai 
                   Pudupudukkottai, Madurai — 625019
                 </p>
-              </li>
+              </li> */}
 
-              <li>
+              {/* <li>
                 <h4 className="text-xl font-bold text-black-700">
                   Branch Office – Odisha 
                 </h4>
                 <p className="text-lg text-gray-600 mt-1">
                   BSNL Backside, Ramchandrapur Bazaar, Jethani, Odisha – 752050.
                 </p>
-              </li>
+              </li> */}
+
             </ul>
           </div>
         </div>

@@ -77,7 +77,7 @@ const InfrastructureComponent = () => {
         {/* Left Side Image */}
         <div data-aos="fade-right" className="flex justify-center md:max-w-md lg:max-w-none mx-auto">
           <img
-            src="/images/projects/PJ6.1.png"
+            src="/images/infra.jpg"
             alt="Infrastructure"
             className="rounded-lg shadow-lg w-full h-auto max-h-[500px] object-cover"
           />

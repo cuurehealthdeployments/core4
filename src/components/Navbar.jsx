@@ -580,7 +580,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-md p-2 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+    <nav className="bg-white shadow-md p-2 flex justify-between items-center sticky top-0 z-50">
       {/* Logo */}
       <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-20 w-42 ml-5" /></Link>
 
@@ -667,7 +667,12 @@ const Navbar = () => {
       </button>
 
       {/* Mobile Navbar */}
-      <ul className={`fixed top-0 left-0 w-full h-screen bg-white z-50 transition-transform transform ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col items-start text-lg overflow-y-auto`}>
+      <ul
+        className={`fixed top-0 w-full h-screen bg-white z-50
+        transition-all duration-300
+        ${isOpen ? "left-0" : "-left-full"}
+        lg:hidden flex flex-col items-start text-lg overflow-y-auto`}
+      >
         {/* Close Button & Logo */}
         <div className="flex justify-between items-center w-full px-6 py-4 border-b">
           <img src="images/logo.jpg" alt="Logo" className="h-14 w-auto" />

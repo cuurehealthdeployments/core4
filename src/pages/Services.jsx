@@ -64,7 +64,7 @@ const services = [
         ➣ Focus on <b>Safety, Sustainability, and Innovation</b> in every project.
         <br /><br />
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At <b>CORE4 ENGINEERS Limited</b>, we understand the complexity of railway systems and the importance of reliability in transport networks. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our mission is to deliver infrastructure that enhances connectivity, supports economic growth, and contributes to a sustainable future.
+        At <b>CORE4 ENGINEERS Limited</b>, we understand the complexity of railway systems and the importance of reliability in transport networks. Our mission is to deliver infrastructure that enhances connectivity, supports economic growth, and contributes to a sustainable future.
       </>
     ),
     img: service1,
@@ -85,30 +85,26 @@ const services = [
         <br /><br />
         <strong>Our Water & Wastewater Services Include :</strong>
         <br />
-        <strong>➣ Water Treatment Plants (WTP):</strong><br />
+        <strong>➣ Water Treatment Plants (WTP):</strong>
         Design and implementation of plants for purification, filtration, and disinfection of raw water to ensure safe and reliable supply.
         <br />
-        <strong>➣ Wastewater Treatment Plants (WWTP):</strong><br />
+        <strong>➣ Wastewater Treatment Plants (WWTP):</strong>
         Comprehensive solutions for domestic and industrial wastewater, including
         biological, chemical, and physical treatment systems.
         <br />
-        <strong>➣ Sewage Treatment Systems:</strong><br />
+        <strong>➣ Sewage Treatment Systems:</strong>
         Design and rehabilitation of sewer networks, pumping stations, and treatment facilities to manage urban wastewater efficiently.
         <br />
         <strong>➣ Effluent Treatment Plants (ETP):</strong>
-        <br />
         Custom solutions for industrial clients to treat effluents and meet environmental discharge regulations.
         <br />
         <strong>➣ Sludge Management:</strong>
-        <br />
         Sustainable handling, treatment, and disposal or reuse of sludge through advanced drying and digestion processes.
         <br />
         <strong>➣ Water Recycling & Reuse:</strong>
-        <br />
         Integration of advanced technologies for resource recovery and water reuse, supporting circular economy principles.
         <br />
         <strong>➣ Operation & Maintenance Support:</strong>
-        <br />
         Long-term operational services, performance monitoring, and capacity-building programs for treatment facilities.
         <br /><br />
         <strong>Why Choose CORE4 ENGINEERS Limited ?</strong><br />
@@ -117,10 +113,10 @@ const services = [
         ➣ Integration of <b>state-of-the-art technologies</b> for optimized plant performance and reduced lifecycle costs.<br />
         ➣ A <b>client-focused approach</b> that ensures tailored solutions for every project scale and requirement.
         <br /><br />
-        &nbsp;&nbsp;At <b>CORE4 ENGINEERS Limited</b>, we believe that access to clean water and responsible
-        wastewater management are essential to &nbsp;&nbsp;&nbsp;&nbsp;sustainable development. Our goal is to engineer
+        At <b>CORE4 ENGINEERS Limited</b>, we believe that access to clean water and responsible
+        wastewater management are essential to sustainable development. Our goal is to engineer
         smart, reliable, and environmentally sound systems that protect natural resources and
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;improve quality of life.
+        improve quality of life.
       </>
     ),
     img: service2,
@@ -378,7 +374,7 @@ const ServicePage = () => {
       {/* Header Section */}
       <div className="bg-gray-300 py-10">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-3xl sm:text-4xl font-bold">Services</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold">Services</h1>
           <p className="text-gray-700 mt-2">Home &gt;&gt; Services</p>
         </div>
       </div>

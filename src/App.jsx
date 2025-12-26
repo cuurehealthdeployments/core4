@@ -14,6 +14,7 @@ import BOD from "./pages/Investors/BOD";
 import ShareDocs from "./pages/Investors/ShareDocs";
 import FinancialResults from "./pages/Investors/FinancialResults";
 import SharePatterns from "./pages/Investors/SharePatterns";
+import Banking from "./pages/Investors/Banking";
 import BoardNotice from "./pages/Investors/BoardNotice";
 import SubsidaryFinance from "./pages/Investors/SubsidaryFinance.jsx";
 import CorporatePolicies from "./pages/Investors/CorporatePolicies";
@@ -33,7 +34,6 @@ import SecretorialReport from "./pages/Investors/SecretorialReport";
 
 
 import Contact from "./pages/Contact";
-import PoliciesPage from "./pages/Policies";
 import Updates from "./pages/Updates";
 import ProjectsPage from "./pages/Projects";
 import ServicePage from "./pages/Services";
@@ -63,6 +63,7 @@ const App = () => {
             <Route path="/board-committee" element={<BoardCommittee />} />
             <Route path="/share-docs" element={<ShareDocs />} />
             <Route path="/share-patterns" element={<SharePatterns />} />
+            <Route path="/banking" element={<Banking />} />
             <Route path="/financial-results" element={<FinancialResults />} />
             <Route path="/board-notice" element={<BoardNotice />} />
             <Route path="/subsidary-finance" element={<SubsidaryFinance />} />
@@ -81,7 +82,6 @@ const App = () => {
             <Route path="/secretarial-components-report" element={<SecretorialReport />} />
 
             
-            <Route path="/investors/polices" element={<PoliciesPage/>} />
             <Route path="/investors/latestupdates" element={<Updates/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<ProjectsPage/>} />

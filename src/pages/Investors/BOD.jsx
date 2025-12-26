@@ -5,32 +5,32 @@ const BoardOfDirectors = () => {
     {
       name: "Agrahara Chamaraje Gowda Abhinandan",
       designation: "Managing Director",
-      imgSrc: "/images/T1.png",
+      imgSrc: "/images/investors icon/dummy.png",
     },
     {
       name: "Hosahalli Appagigowda Savitha",
       designation: "Whole-time Director",
-      imgSrc: "/images/T2.png",
+      imgSrc: "/images/investors icon/dummy.png",
     },
     {
       name: "Mahadevappa Tejus",
-      designation: "Director",
-      imgSrc: "/images/T3.png",
+      designation: "Whole-time Director",
+      imgSrc: "/images/investors icon/dummy.png",
     },
     {
       name: "Anala",
-      designation: "Independent Director",
-      imgSrc: "/images/T4.png",
+      designation: "Non-Executive Director",
+      imgSrc: "/images/investors icon/dummy.png",
     },
     {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
-      imgSrc: "/images/T5.png",
+      imgSrc: "/images/investors icon/dummy.png",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
-      designation: "Director & Chairperson",
-      imgSrc: "/images/T6.png",
+      designation: "Independent Director",
+      imgSrc: "/images/investors icon/dummy.png",
     },
   ];
 

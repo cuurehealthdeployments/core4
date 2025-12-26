@@ -3,7 +3,7 @@ import React from "react";
 const WhatsAppFloating = () => {
   return (
     <a
-      href="https://wa.me/919876543210?text=Hello%20I%20would%20like%20to%20know%20more"
+      href="https://wa.me/917349280036?text=Hello%20I%20would%20like%20to%20know%20more"
       target="_blank"
       rel="noopener noreferrer"
       style={{

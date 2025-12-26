@@ -18,6 +18,7 @@ const images = [
   { src: "/images/products/PR15.png" },
   { src: "/images/products/PR16.png" },
   { src: "/images/products/PR17.png" },
+  { src: "/images/products/PJ8.2.png" },
 ];
 
 const Gallery = () => {

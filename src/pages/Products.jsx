@@ -21,7 +21,7 @@ import product17 from "/images/products/PR17.png";
 
 const products = [
   {
-    title: "Compact Substation 11kv (CSS)",
+    title: "Compact Substation (CSS)",
     description:
         `A CSS panel (Compact Secondary Substation) is a
           compact, factory-built electrical unit integrating
@@ -111,7 +111,7 @@ const products = [
     img: product6,
   },
   {
-    title: "33KV Incoming and Outgoing Panel (ICOG)",
+    title: "33KV Incoming and Outgoing Panel ",
     description:
               `The 33 kV ICOG panel is designed for safe and
       efficient control of incoming and outgoing feeders
@@ -222,7 +222,7 @@ const products = [
     img: product14,
    },
      {
-    title: "FCMA SOFT STARTER",
+    title: "FCMA Soft Starter",
     description:
         `The FCMA (Flux Compensated Magnetic
           Amplifier) Soft Starter panel provides smooth,
@@ -239,7 +239,7 @@ const products = [
     img: product15,
    },
     {
-    title: "BUS DUCT",
+    title: "BUS Duct",
     description:
         `Low-Tension Bus Duct (L.T. Bus Duct) or
           Sandwich Bus Duct is a system used for electrical
@@ -303,7 +303,7 @@ const ProductPage = () => {
     <div className="bg-blue-50 min-h-screen">
       <div className="bg-gray-300 py-10">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-3xl sm:text-4xl font-bold">Products</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold">Products</h1>
           <p className="text-gray-700 mt-2">Home &gt;&gt; Products</p>
         </div>
       </div>
@@ -373,7 +373,7 @@ const ProductPage = () => {
     className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
   />
   <img
-    src="/images/products/PRE3.jpg"
+    src="/images/products/PRE3.jpeg"
     className="w-3/4 mx-auto h-56 object-cover rounded-lg shadow"
   />
   <img

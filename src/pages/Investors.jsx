@@ -10,6 +10,7 @@ const Investors = () => {
     { label: "Board Committees", path: "/board-committee", icon: "/images/investors icon/iv5.png" },
     { label: "Financial Results", path: "/financial-results", icon: "/images/investors icon/iv6.png" },
     { label: "Share Holding Patterns", path: "/share-patterns", icon: "/images/investors icon/iv7.png" },
+    { label: "Banking Partners", path: "/banking", icon: "/images/investors icon/iv23.png" },
     { label: "Board Meeting Notice and Outcome", path: "/board-notice", icon: "/images/investors icon/iv8.png" },
     { label: "Subsidiary Financials", path: "/subsidary-finance", icon: "/images/investors icon/iv9.png" },
     { label: "Associate Financials", path: "/associate-financials", icon: "/images/investors icon/iv10.png" },
@@ -34,7 +35,7 @@ const Investors = () => {
   {/* Page Header */}
   <div className="bg-gray-300 py-10 w-full">
     <div className="max-w-6xl mx-auto px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold">
+      <h1 className="text-3xl sm:text-5xl font-bold">
         Investors Info
       </h1>
       <p className="text-gray-700 mt-2">

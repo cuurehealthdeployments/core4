@@ -24,7 +24,7 @@ const Hero = () => {
       {/* Overlay Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white text-center px-4">
         <h1 data-aos="fade-up" data-aos-duration="2000" className="text-5xl md:text-7xl font-bold">TO SECURE A SUSTAINABLE FUTURE</h1>
-        <h2 data-aos="fade-up" data-aos-duration="3000" className="text-4xl md:text-6xl mt-6">CORE4 ENGINEER'S VISION</h2>
+        <h2 data-aos="fade-up" data-aos-duration="3000" className="text-4xl md:text-6xl mt-6">CORE4 ENGINEER's VISION</h2>
       </div>
     </div>
   );
