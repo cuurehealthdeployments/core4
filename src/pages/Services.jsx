@@ -34,12 +34,12 @@ const services = [
         <br /><br />
         <strong>Our Railway Infrastructure Services Include :</strong><br />
         <strong>➣ Railway Electrification - </strong>
-        Precision engineering for Over Head Electrification (OHE) works, associated Traction Sub-Stations (TSS) with necessary Power Supply Installations for 1 X 25KV and 2 X 25KV systems.<br />
+        Precision engineering for Over Head Electrification (OHE) works, associated Traction Sub-Stations (TSS) with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;necessary Power  Supply Installations for 1 X 25KV and 2 X 25KV systems.<br />
         <strong>➣ Railway Foot-over Bridges & Structures - </strong>
-        Design, Engineer, Fabrication and Erection of Footover bridges, culverts, retaining walls, and other civil structures.
+        Design, Engineer, Fabrication and Erection of Footover bridges, culverts, retaining walls, and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other civil structures.
         <br />
         <strong>➣ Railway Stations & Terminals - </strong>
-        Planning and engineering of Railway Station Redevelopment of passenger and freight stations with an emphasis on accessibility, functionality, commercial and safety.
+        Planning and engineering of Railway Station Redevelopment of passenger and freight stations with an &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emphasis on accessibility, functionality, commercial and safety.
         <br />
         <strong>➣ Signalling & Telecom works - </strong>
         Integration of track and systems interfaces to ensure safe and efficient operations.
@@ -54,7 +54,7 @@ const services = [
         Modernization of existing railway assets for improved performance and reduced maintenance costs.
         <br />
         <strong>➣ Pre – Engineered Building - </strong>
-        Design, Fabrication, and Erection of Pre – Engineered buildings focusing on reduced construction time, reliability and safety.
+        Design, Fabrication, and Erection of Pre – Engineered buildings focusing on reduced construction time, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reliability and safety.
         <br /><br />
 
         <strong>Why Choose CORE4 ENGINEERS ?</strong><br />
@@ -64,7 +64,7 @@ const services = [
         ➣ Focus on <b>Safety, Sustainability, and Innovation</b> in every project.
         <br /><br />
 
-        At <b>CORE4 ENGINEERS Limited</b>, we understand the complexity of railway systems and the importance of reliability in transport networks. Our mission is to deliver infrastructure that enhances connectivity, supports economic growth, and contributes to a sustainable future.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At <b>CORE4 ENGINEERS Limited</b>, we understand the complexity of railway systems and the importance of reliability in transport networks. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our mission is to deliver infrastructure that enhances connectivity, supports economic growth, and contributes to a sustainable future.
       </>
     ),
     img: service1,
@@ -117,10 +117,10 @@ const services = [
         ➣ Integration of <b>state-of-the-art technologies</b> for optimized plant performance and reduced lifecycle costs.<br />
         ➣ A <b>client-focused approach</b> that ensures tailored solutions for every project scale and requirement.
         <br /><br />
-        At <b>CORE4 ENGINEERS Limited</b>, we believe that access to clean water and responsible
-        wastewater management are essential to sustainable development. Our goal is to engineer
+        &nbsp;&nbsp;At <b>CORE4 ENGINEERS Limited</b>, we believe that access to clean water and responsible
+        wastewater management are essential to &nbsp;&nbsp;&nbsp;&nbsp;sustainable development. Our goal is to engineer
         smart, reliable, and environmentally sound systems that protect natural resources and
-        improve quality of life.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;improve quality of life.
       </>
     ),
     img: service2,
@@ -497,9 +497,9 @@ const ServicePage = () => {
               }}
             >
               <div className="flex items-start justify-between">
-                <h3 className="text-2xl font-bold">{selected.title}</h3>
+                <h3 className="text-3xl font-bold">{selected.title}</h3>
               </div>
-              <div className="mt-4 text-gray-700 leading-relaxed text-justify whitespace-pre-line space-y-3">
+              <div className="text-lg mt-4 text-gray-700 leading-relaxed text-justify whitespace-pre-line space-y-3">
                 {selected.description}
               </div>
 
